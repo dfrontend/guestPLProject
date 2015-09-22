@@ -1,0 +1,131 @@
+/*common classes*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.font-bold, strong, b {
+	font-family: 'montserratbold';
+}
+
+.font-light {
+	font-family: 'montserratlight';
+}
+/*bg color*/
+.bg-white {
+	background-color: #fff;
+}
+.bg-skin {
+  background-color: #f6ead6;
+}
+
+.width-100pr {
+	width: 100%!important;
+}
+.width-90pr {
+	width: 90%;
+}
+.width-80pr {
+	width: 80%;
+}
+.width-70pr {
+	width: 70%;
+}
+.width-60pr {
+	width: 60%;
+}
+.width-50pr {
+	width: 50%;
+}
+.width-40pr {
+	width: 40%;
+}
+.width-30pr {
+	width: 30%;
+}
+.width-20pr {
+	width: 20%;
+}
+.width-10pr {
+	width: 10%;
+}
+/*colors*/
+.color-white {
+	color: #fff!important;
+}
+.color-skin {
+  color: #f6ead6;
+}
+.pos-relative {
+	position: relative;
+}
+
+.pos-absolute {
+	position: absolute;
+}
+
+.btn, button {
+	background-color: #dc5139;
+	color: #fff;
+  transition: all ease 1s;
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    background-color: #c63c24;
+}
+.btn-lg {
+    padding: 17px 42px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+}
+::-webkit-input-placeholder {
+   color: #000;
+   opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #000; 
+   opacity: 1; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000; 
+   opacity: 1; 
+}
+
+:-ms-input-placeholder {  
+   color: #000;
+   opacity: 1; 
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.display-block {
+  display: block;
+}
+.display-inline {
+  display: inline;
+}
+.display-inline-b {
+  display: inline-block;
+}
