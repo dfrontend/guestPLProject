@@ -15,7 +15,7 @@
 <!-- top nav -->
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#" class="btn">Become a host</a></li>
+            <li class="active rippler rippler-default"><a href="#" class="btn">Become a host</a></li>
             <li><a href="#">Sign Up</a></li>
             <li><a href="#">Log In</a></li>
           </ul>

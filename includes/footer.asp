@@ -24,6 +24,7 @@
 					<a href="#"><i class="icon-gp-pinterest"></i></a>
 					<a href="#"><i class="icon-gp-gplus"></i></a>
 					<a href="#"><i class="icon-gp-social-yelp"></i></a>
+					<a href="#"><i class="icon-gp-foursquare"></i></a>
 				</div>
 				<div class="copy-right">© 2015 GuestPlate. All rights reserved.</div>
 			</div>

@@ -13,6 +13,7 @@
 									<div class="row">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/picture-1.png" alt="user" title="user">
 											</div>
 										</div>
@@ -20,10 +21,10 @@
 											<div class="row">
 												<div class="content">
 													OMG! Guest Plate. Where have you been all my life?  Dinner at Pamela Nevarez-Fisher’s house was amazing! What an incredible new way to experience Malibu. I will be using Guest Plate wherever I travel.
+
+													<div class="name">- Zoe Naylor</div>
 												</div>
-											<div class="name">
-												- Zoe Naylor
-											</div>
+											
 												
 												
 											</div>
@@ -41,6 +42,7 @@
 									<div class="row">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/picture-1.png" alt="user" title="user">
 											</div>
 										</div>
@@ -48,12 +50,10 @@
 											<div class="row">
 												<div class="content">
 													OMG! Guest Plate. Where have you been all my life?  Dinner at Pamela Nevarez-Fisher’s house was amazing! What an incredible new way to experience Malibu. I will be using Guest Plate wherever I travel.
+
+													<div class="name">- Zoe Naylor</div>
 												</div>
-											<div class="name">
-												- Zoe Naylor
-											</div>
-												
-												
+											
 											</div>
 										</div>
 
@@ -69,6 +69,7 @@
 									<div class="row">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/picture-1.png" alt="user" title="user">
 											</div>
 										</div>
@@ -76,12 +77,9 @@
 											<div class="row">
 												<div class="content">
 													OMG! Guest Plate. Where have you been all my life?  Dinner at Pamela Nevarez-Fisher’s house was amazing! What an incredible new way to experience Malibu. I will be using Guest Plate wherever I travel.
+
+													<div class="name">- Zoe Naylor</div>
 												</div>
-											<div class="name">
-												- Zoe Naylor
-											</div>
-												
-												
 											</div>
 										</div>
 

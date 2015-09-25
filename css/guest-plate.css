@@ -87,6 +87,8 @@ header .navbar-nav>li.active:hover {
 	color: #fff;
 	background-color: #dc5139;
 	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
 	text-decoration: none;	
 }
 
@@ -151,7 +153,7 @@ header .navbar-nav>li.active:hover {
 	background: #fff;
 	padding-right: 15px;
 }
-.search-module .dropdown button {
+.search-module input[type="text"] {
 	margin-left: 1px;
 }
 .search-module button .caret {
@@ -221,7 +223,7 @@ header .navbar-nav>li.active:hover {
 }
 
 .how-it-works .box {
-	border: 2px solid #000;
+	border: 2px solid #e5d9c6;
 	padding: 45px 40px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -307,11 +309,37 @@ header .navbar-nav>li.active:hover {
     margin-right: 0;
 }
 
+.host-pic {
+    display:block;
+    position:relative;
+}
+
+
 .host-pic img {
+	display: block;
 	border-radius: 50%;
-	border: 4px solid #000;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	/*border: 4px solid #000;*/
 	width: 100%;
 }
+.host-pic .inset-o-shdw {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+.inset-o-shdw {
+  	border-radius: 50%;
+  	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    -moz-box-shadow:inset inset 0px 0px 40px rgba(0,0,0,0.7);
+    -webkit-box-shadow:inset 0px 0px 40px rgba(0,0,0,0.7);
+    box-shadow:inset 0px 0px 40px rgba(0,0,0,0.7);
+}
+
 .carousel.host .host-name h3 {
 	padding: 0;
 	margin: 0;
@@ -385,7 +413,8 @@ header .navbar-nav>li.active:hover {
 	bottom: 0;
 	width: 100%;
 	height: 108px;
-
+	border-top: 1px solid #e5d9c6;
+	border-bottom: 1px solid #e5d9c6;
 }
 
 .host-numbers h1, .host-numbers small, .host-numbers span  {
@@ -447,6 +476,7 @@ header .navbar-nav>li.active:hover {
 	color: #000;
 	font-size: 18px;
 	text-transform: capitalize;
+	padding-top: 10px;
 }
 .carousel.testimo .carousel-indicators {
 	left: inherit;
@@ -490,7 +520,7 @@ footer a, footer a:hover {
 }
 
 footer .social a {
-	font-size: 28px;
+	font-size: 25px;
 	color: #000;
 	margin: 0 5px;
 	text-decoration: none;
@@ -505,27 +535,50 @@ footer .social {
 /* No media query since this is the default in Bootstrap */
 
 /* mobile devices (mobiles, 767px and up) */
-@media(max-width:767px) { ... }
+@media(max-width:767px) {  }
 
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) and (max-width:992px) { 
+	.how-it-works, .local-host, .testimonials {
+    	padding: 30px 0;
+	}
+	.local-host {
+		padding-bottom: 0;
+	}
 	.branding .brand-image {
-		height: 500px;
+		height: 520px;
 	}
 	.home-search h1 {
-    	font-size: 3em;
+    	font-size: 40px;
 	}
+	.carousel.host .carousel-inner .item {
+    	min-height: 375px;
+	}
+	.carousel.host .wrap-1 {
+		height: 267px;
+	}
+	.section-title,
 	.carousel.host .host-name h3 {
-    	font-size: 25px;
+		font-size: 22px;
 	}
+	.carousel.host .host-name address {
+    	font-size: 16px;
+	}
+	.host-details li {
+    	font-size: 12px;
+	}	
 	.host-numbers {
-    	margin-top: 40px;
+    	margin-top: 0;
 	}
 	.host-pic {
-		margin-top: 30%;
+		margin-top: 0;
+	}
+	.carousel.host .host-name h3 {
+		padding-top: 0;
 	}
 	.carousel.testimo .carousel-indicators {
 	    right: 3%;
+	    bottom: 12%;
 	}
 	.carousel.testimo .host-pic {
     	width: 100%;
@@ -536,7 +589,37 @@ footer .social {
 	.carousel.testimo .content {	
     	padding-top: 30px;
 	}
-	footer a, footer a:hover {
+	.carousel.host .carousel-control {
+		height: 200px;
+	}
+	.carousel.host .btn-view-menu {
+		width: 70%;
+	}
+	.how-it-works .box {
+    	padding: 27px;
+    	margin-bottom: 30px;
+	}
+	.how-it-works h2 {
+		font-size: 15px;
+	}
+	.how-it-works p {
+    	font-size: 12px;
+	}
+
+	.carousel.testimo .content {
+		height: 125px;	
+ 	   font-size: 12px;
+	}
+	.carousel.testimo .carousel-inner .item {
+  	  min-height: 200px;
+	}
+	.carousel.testimo .name {
+		font-size: 12px;
+	}
+	footer {
+	    padding: 28px 0;
+	}
+	footer, footer a, footer a:hover {
   		font-size: 14px;
 	}
 }
@@ -552,4 +635,4 @@ footer .social {
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media(min-width:1200px) { ... }
+@media(min-width:1200px) {  }

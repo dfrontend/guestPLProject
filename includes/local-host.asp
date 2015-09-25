@@ -1,5 +1,4 @@
-	
-	<div class="container">
+    <div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
 				<h1 class="section-title">Your Local Hosts</h1>
@@ -11,9 +10,10 @@
 						<!-- item -->
 						<div class="item active">
 								<div class="carousel-caption">
-									<div class="row">
+									<div class="row wrap-1">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
 											</div>
 										</div>
@@ -54,6 +54,9 @@
 											</div>
 										</div>
 
+										
+									</div>
+									<div class="row">
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
@@ -72,30 +75,30 @@
 													<small>hosted</small>
 													<span></span>
 												</div>
-												<div class="col-lg-6 col-md-6 col-md-6 text-right">
-												<button type="button" class="btn btn-lg width-50pr  rippler rippler-default">View Menu</button>
+												<div class="col-lg-6 col-md-6 col-sm-6 text-right">
+												<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">View Menu</button>
 												</div>
 											</div>
 											</div>
 										</div>
-									</div>
-
+									</div>	
 								</div>							
 						</div>	
 						<!-- item -->
 						<!-- item -->
 						<div class="item">
 								<div class="carousel-caption">
-									<div class="row">
+									<div class="row wrap-1">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
 											</div>
 										</div>
 										<div class="col-lg-8 col-md-8 col-sm-8">
 											<div class="row">
 												<div class="col-lg-12 col-md-12 col-sm-12 host-name">
-													<h3>pamela Nevarez-Fisher</h3>
+													<h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart"></i></h3>
 													<address class="font-light">Malibu, CA</address>
 												</div>
 											
@@ -129,6 +132,9 @@
 											</div>
 										</div>
 
+
+									</div>
+<div class="row">
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
@@ -147,14 +153,13 @@
 													<small>hosted</small>
 													<span></span>
 												</div>
-												<div class="col-lg-6 col-md-6 col-md-6 text-right">
-												<button type="button" class="btn btn-lg width-50pr  rippler rippler-default">View Menu</button>
+												<div class="col-lg-6 col-md-6 col-sm-6 text-right">
+												<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">View Menu</button>
 												</div>
 											</div>
 											</div>
 										</div>
 									</div>
-
 								</div>							
 						</div>		
 						<!-- item -->

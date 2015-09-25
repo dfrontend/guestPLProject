@@ -5,7 +5,22 @@
 		<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+	<link rel="manifest" href="ico/manifest.json">
 
 	<!-- css files -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -39,7 +54,7 @@
 <!-- top nav -->
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#" class="btn">Become a host</a></li>
+            <li class="active rippler rippler-default"><a href="#" class="btn">Become a host</a></li>
             <li><a href="#">Sign Up</a></li>
             <li><a href="#">Log In</a></li>
           </ul>
@@ -62,27 +77,29 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
 				<div class="search-module">
 					<div class="wrapper clearfix">
 					<form class="form-inline">
-						<div class="form-group pull-left width-50pr pos-relative">
-							<i class="icon-gp-location"></i>
-							<input type="text" class="form-control width-100pr" id="location" placeholder="Location">
-						</div>
+
 						<div class="pull-left width-30pr pos-relative">
 							<div class="dropdown">
-							<i class="icon-gp-plate-cover"></i>
-								<button id="category" class="width-100pr clearfix text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="btn-value display-block truncate">Category</span> 
+							
+							<i class="icon-gp-location"></i>
+								<button id="category" class="width-100pr clearfix text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="btn-value display-block truncate">Location</span> 
 								<span class="glyphicon glyphicon-chevron-down pull-right"></span>
 								</button>
 
 								<ul class="dropdown-menu width-100pr" aria-labelled="category">
-									<li><a href="javascript:void(0);">Category 1</a></li>
+									<li><a href="javascript:void(0);">Location 1</a></li>
 									<li><a href="javascript:void(0);">Category 2</a></li>
 									<li><a href="javascript:void(0);">Category long text</a></li>
 								</ul>
 							</div>
+						</div>
+						<div class="form-group pull-left width-50pr pos-relative">
+							<i class="icon-gp-search"></i>
+							<input type="text" class="form-control width-100pr truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
 						</div>
 						<div class="pull-left width-20pr">
 							<button type="button" class="btn color-white width-100pr rippler rippler-default">Search</button>
@@ -107,8 +124,7 @@
 
 <!-- local host -->
 <section class="local-host pos-relative">
-		
-	<div class="container">
+	    <div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
 				<h1 class="section-title">Your Local Hosts</h1>
@@ -120,9 +136,10 @@
 						<!-- item -->
 						<div class="item active">
 								<div class="carousel-caption">
-									<div class="row">
+									<div class="row wrap-1">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
 											</div>
 										</div>
@@ -163,6 +180,9 @@
 											</div>
 										</div>
 
+										
+									</div>
+									<div class="row">
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
@@ -181,30 +201,30 @@
 													<small>hosted</small>
 													<span></span>
 												</div>
-												<div class="col-lg-6 col-md-6 col-md-6 text-right">
-												<button type="button" class="btn btn-lg width-50pr  rippler rippler-default">View Menu</button>
+												<div class="col-lg-6 col-md-6 col-sm-6 text-right">
+												<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">View Menu</button>
 												</div>
 											</div>
 											</div>
 										</div>
-									</div>
-
+									</div>	
 								</div>							
 						</div>	
 						<!-- item -->
 						<!-- item -->
 						<div class="item">
 								<div class="carousel-caption">
-									<div class="row">
+									<div class="row wrap-1">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
 											</div>
 										</div>
 										<div class="col-lg-8 col-md-8 col-sm-8">
 											<div class="row">
 												<div class="col-lg-12 col-md-12 col-sm-12 host-name">
-													<h3>pamela Nevarez-Fisher</h3>
+													<h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart"></i></h3>
 													<address class="font-light">Malibu, CA</address>
 												</div>
 											
@@ -238,6 +258,9 @@
 											</div>
 										</div>
 
+
+									</div>
+<div class="row">
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
@@ -256,14 +279,13 @@
 													<small>hosted</small>
 													<span></span>
 												</div>
-												<div class="col-lg-6 col-md-6 col-md-6 text-right">
-												<button type="button" class="btn btn-lg width-50pr  rippler rippler-default">View Menu</button>
+												<div class="col-lg-6 col-md-6 col-sm-6 text-right">
+												<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">View Menu</button>
 												</div>
 											</div>
 											</div>
 										</div>
 									</div>
-
 								</div>							
 						</div>		
 						<!-- item -->
@@ -348,6 +370,7 @@
 									<div class="row">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/picture-1.png" alt="user" title="user">
 											</div>
 										</div>
@@ -355,10 +378,10 @@
 											<div class="row">
 												<div class="content">
 													OMG! Guest Plate. Where have you been all my life?  Dinner at Pamela Nevarez-Fisher’s house was amazing! What an incredible new way to experience Malibu. I will be using Guest Plate wherever I travel.
+
+													<div class="name">- Zoe Naylor</div>
 												</div>
-											<div class="name">
-												- Zoe Naylor
-											</div>
+											
 												
 												
 											</div>
@@ -376,6 +399,7 @@
 									<div class="row">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/picture-1.png" alt="user" title="user">
 											</div>
 										</div>
@@ -383,12 +407,10 @@
 											<div class="row">
 												<div class="content">
 													OMG! Guest Plate. Where have you been all my life?  Dinner at Pamela Nevarez-Fisher’s house was amazing! What an incredible new way to experience Malibu. I will be using Guest Plate wherever I travel.
+
+													<div class="name">- Zoe Naylor</div>
 												</div>
-											<div class="name">
-												- Zoe Naylor
-											</div>
-												
-												
+											
 											</div>
 										</div>
 
@@ -404,6 +426,7 @@
 									<div class="row">
 										<div class="col-lg-4 col-md-4 col-sm-4">
 											<div class="host-pic">
+											<div class="inset-o-shdw"></div>
 												<img src="img/large/picture-1.png" alt="user" title="user">
 											</div>
 										</div>
@@ -411,12 +434,9 @@
 											<div class="row">
 												<div class="content">
 													OMG! Guest Plate. Where have you been all my life?  Dinner at Pamela Nevarez-Fisher’s house was amazing! What an incredible new way to experience Malibu. I will be using Guest Plate wherever I travel.
+
+													<div class="name">- Zoe Naylor</div>
 												</div>
-											<div class="name">
-												- Zoe Naylor
-											</div>
-												
-												
 											</div>
 										</div>
 
@@ -476,6 +496,7 @@
 					<a href="#"><i class="icon-gp-pinterest"></i></a>
 					<a href="#"><i class="icon-gp-gplus"></i></a>
 					<a href="#"><i class="icon-gp-social-yelp"></i></a>
+					<a href="#"><i class="icon-gp-foursquare"></i></a>
 				</div>
 				<div class="copy-right">© 2015 GuestPlate. All rights reserved.</div>
 			</div>
