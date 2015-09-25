@@ -39,77 +39,89 @@
 }
 
 .icon-gp-clock:before {
-    content: "a";
+  content: "a";
 }
 .icon-gp-location:before {
-    content: "b";
+  content: "b";
 }
 .icon-gp-search:before {
-    content: "c";
+  content: "c";
 }
 .icon-gp-social-twitter:before {
-    content: "e";
+  content: "e";
 }
 .icon-gp-instagram:before {
-    content: "f";
+  content: "f";
 }
 .icon-gp-gplus:before {
-    content: "g";
+  content: "g";
 }
 .icon-gp-pinterest:before {
-    content: "h";
+  content: "h";
 }
 .icon-gp-social-yelp:before {
-    content: "i";
+  content: "i";
 }
 .icon-gp-bow-tie:before {
-    content: "j";
+  content: "j";
 }
 .icon-gp-plate-cover:before {
-    content: "k";
+  content: "k";
 }
 .icon-gp-plate-cover-hand:before {
-    content: "l";
+  content: "l";
 }
 .icon-gp-truck:before {
-    content: "m";
+  content: "m";
 }
 .icon-gp-arrow-1-right:before {
-    content: "n";
+  content: "n";
 }
 .icon-gp-arrow-1-left:before {
-    content: "o";
+  content: "o";
 }
 .icon-gp-arrow-1-down:before {
-    content: "p";
+  content: "p";
 }
 .icon-gp-arrow-1-up:before {
-    content: "q";
+  content: "q";
 }
 .icon-gp-left-open-big:before {
-    content: "r";
+  content: "r";
 }
 .icon-gp-down-open-big:before {
-    content: "s";
+  content: "s";
 }
 .icon-gp-right-open-big:before {
-    content: "t";
+  content: "t";
 }
 .icon-gp-up-open-big:before {
-    content: "u";
-}
-.icon-gp-love-heart:before {
-    content: "v";
+  content: "u";
 }
 .icon-gp-radio-blank:before {
-    content: "x";
+  content: "x";
 }
 .icon-gp-radio-checked:before {
-    content: "y";
+  content: "y";
 }
 .icon-gp-foursquare:before {
-    content: "w";
+  content: "w";
 }
 .icon-gp-social-facebook:before {
-    content: "d";
+  content: "d";
+}
+.icon-gp-login:before {
+  content: "z";
+}
+.icon-gp-logout:before {
+  content: "A";
+}
+.icon-gp-mob-menu:before {
+  content: "C";
+}
+.icon-gp-love-heart-fill:before {
+  content: "B";
+}
+.icon-gp-love-heart:before {
+  content: "D";
 }

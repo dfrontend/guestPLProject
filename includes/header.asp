@@ -7,9 +7,9 @@
             <span class="icon-bar"></span>
           </button>
           <!-- mobile logout btn -->
-          <a href="#" class="pull-right visible-xs-block" title="logout">Ls</a>
+          <a href="#" class="pull-right rippler rippler-default visible-xs-block" title="logout">Ls</a>
           <!-- logo -->
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand rippler rippler-default" href="#">
           	<img src="img/logo.png" alt="Guest Plate" title="Guest Plate">
           </a>
 
@@ -20,7 +20,7 @@
           <ul class="nav navbar-nav">
             <li class="active rippler rippler-default"><a href="#" class="btn">Become a host</a></li>
             <li class="rippler rippler-default"><a href="http://www.google.com/" target="_blank">Sign Up</a></li>
-            <li class="rippler rippler-default"><a href="#">Log In</a></li>
+            <li class="rippler rippler-default hidden-xs"><a href="#">Log In</a></li>
           </ul>
         </div>
 </nav>

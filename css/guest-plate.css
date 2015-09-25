@@ -266,13 +266,20 @@ header .navbar-nav>li.active:hover {
 	color: #000!important;
 	margin-top: 34px;
 }
+
+.carousel.host .carousel-inner {
+    width: 78%;
+    right: 10%;
+    left: 10%;
+}
+
 .carousel.host .carousel-inner .item {
 	min-height: 438px;
 }
 .carousel.host .carousel-caption {
 	padding: 0;
-	right: 10%;
-    left: 10%;
+	right: 0;
+    left: 0;s
     bottom: 0;
     top: 0;
     text-shadow: none;
@@ -358,7 +365,9 @@ header .navbar-nav>li.active:hover {
 	font-size: 22px;
 	line-height: 100%;
 }
-
+.carousel.host .wrap-1 {
+	height: 330px;
+}
 .host-details ul, .host-details li,
 .host-images ul, .host-images li {
 	padding: 0;
@@ -402,11 +411,12 @@ header .navbar-nav>li.active:hover {
 }
 
 .host-numbers {
-	margin-top: 45px;
+	/*margin-top: 72px;*/
 	height: 108px;
-	padding: 20px 0;
-
+	padding-top: 18px;
 }
+
+
 .host-numbers-bg {
 	position: absolute;
 	z-index: -1;
@@ -740,9 +750,6 @@ footer .social {
 @media(min-width:992px) and (max-width: 1199px) { 
 	.branding .brand-image {
 		height: 500px;
-	}
-	.host-numbers {
-    	margin-top: 48px;
 	}
 }
 
