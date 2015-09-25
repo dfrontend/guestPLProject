@@ -8,10 +8,10 @@
    });
 
     $(".rippler").rippler({
-    effectClass      :  'rippler-effect'
-    ,effectSize      :  5      // Default size (width & height)
-    ,addElement      :  'svg'   // e.g. 'svg'(feature)
-    ,duration        :  300
+    // effectClass      :  'rippler-effect'
+    // ,effectSize      :  5      // Default size (width & height)
+    // ,addElement      :  'svg'   // e.g. 'svg'(feature)
+    // ,duration        :  300
   });
 
 });

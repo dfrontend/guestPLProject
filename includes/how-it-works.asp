@@ -23,7 +23,7 @@
 						</div>	
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-4">
-						<div class="box">
+						<div class="box last">
 							<div class="bg-plate">
 								<i class="icon-gp-plate-cover-hand"></i>
 							</div>
@@ -32,10 +32,9 @@
 						</div>	
 					</div>
 				</div>
-				<div class="text-center">
-					<button type="button" class="btn btn-lg rippler rippler-default">Learn More</button>	
 				</div>
-
+				<div class="row text-center btn-wrapper">
+					<button type="button" class="btn btn-lg rippler rippler-default">Learn More</button>
 			</div>
 		</div>
 	</div>

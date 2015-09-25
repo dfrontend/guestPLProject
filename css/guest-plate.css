@@ -445,6 +445,9 @@ header .navbar-nav>li.active:hover {
 	margin-top: 5px;
 }
 
+.testimonials {
+	background-color: #f6ead6;
+}
 .carousel.testimo {
 	margin-top: 20px;
 }
@@ -535,7 +538,116 @@ footer .social {
 /* No media query since this is the default in Bootstrap */
 
 /* mobile devices (mobiles, 767px and up) */
-@media(max-width:767px) {  }
+@media (max-width:767px) { 
+	header .navbar {
+		height: 48px;
+		background-color: rgba(220, 81, 57, 0.8);
+		margin-bottom: 0;
+		z-index: 99;
+	}
+	header .navbar-toggle {
+		float: left;
+	}
+	header .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	header .navbar-brand img {
+		display: none;
+	}
+	header .navbar-brand {
+		background-image: url(../img/logo-white.png);
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 126px;
+		height: 26px;
+		margin: 10px auto 0 auto;
+		display: block;
+		padding: 0;
+		float: none;
+	}
+	header .navbar-nav {
+	    float: none;
+	    width: 100%;
+	    background-color: #000;
+	    margin: 0;
+	    z-index: 99;
+	}
+	header .navbar-nav>li {
+		margin: 0;
+	}
+	header .navbar-nav>li>a {
+    	padding: 1.5em;
+    	text-align: center;
+    	font-size: 16px;
+	}
+	.section-title {	
+    	font-size: 19px;
+	}
+	.brand-image img {
+		height: 390px;
+	}
+	.home-search {
+		bottom: 10%;
+	}
+	.home-search h1 {
+    	font-size: 32px;
+    	margin-top: 0;
+	}
+	.search-module {
+		margin-bottom: 0;
+	}
+	.search-module .wrap {
+		width: 100%!important;
+		margin-bottom: 10px!important;
+	}
+	.search-module .wrap.last {
+		margin-bottom: 0!important;
+	}
+	.search-module input[type="text"] {
+    	margin-left: 0;
+	}
+	.how-it-works, .local-host, .testimonials {
+    	padding: 25px 0;
+	}
+	.how-it-works {
+		padding-bottom: 0;
+	}
+	.how-it-works .section-title {
+		margin: 0;
+	}
+	.how-it-works .box {
+		margin-bottom: 0;
+		border: 0;
+		border-bottom: 2px solid #e5d9c6;
+	}
+	.how-it-works .box.last {
+		border: 0;
+	}
+	.how-it-works .btn-wrapper {
+		background-color: #f6ead6;
+		padding: 15px;
+	}
+	.how-it-works .btn-wrapper .btn {
+		width: 90%;
+	}
+	.testimonials {
+		background-color: #fff;
+	}
+	footer, footer a, footer a:hover {
+  		font-size: 14px;
+	}
+	footer {
+    	padding: 25px 0;
+	}
+	footer .nav {
+		margin-bottom: 5px;
+	}
+	footer .nav a {
+		display: inline-block;
+		margin-bottom: 19px;
+	}
+ }
 
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) and (max-width:992px) { 

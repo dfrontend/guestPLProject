@@ -11,6 +11,8 @@
 					<span>|</span>
 					<a href="#">careers</a>
 					<span>|</span>
+					<a href="#">blog</a>
+					<span>|</span>
 					<a href="#">Terms &amp; conditions</a>
 					<span>|</span>
 					<a href="#">privacy policy</a>

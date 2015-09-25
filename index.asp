@@ -32,7 +32,7 @@
 
 
 <!-- what they say -->
-<section class="testimonials bg-skin">
+<section class="testimonials">
 	<!-- #include file="includes/testimonials.asp" -->
 </section>
 <!-- what they say -->

@@ -1,7 +1,7 @@
 <section class="home-search">
 	<div class="text-center">
 		<h1 class="clearfix">Where Would You Like to Eat?</h1>
-		<small class="clearfix font-light">Authentic home cooked meals from local hosts.</small>
+		<small class="clearfix font-light hidden-xs">Authentic home cooked meals from local hosts.</small>
 	</div>
 
 
@@ -12,7 +12,7 @@
 					<div class="wrapper clearfix">
 					<form class="form-inline">
 
-						<div class="pull-left width-30pr pos-relative">
+						<div class="wrap pull-left width-30pr pos-relative">
 							<div class="dropdown">
 							
 							<i class="icon-gp-location"></i>
@@ -27,11 +27,11 @@
 								</ul>
 							</div>
 						</div>
-						<div class="form-group pull-left width-50pr pos-relative">
+						<div class="wrap form-group pull-left width-50pr pos-relative">
 							<i class="icon-gp-search"></i>
 							<input type="text" class="form-control width-100pr truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
 						</div>
-						<div class="pull-left width-20pr">
+						<div class="wrap last pull-left width-20pr">
 							<button type="button" class="btn color-white width-100pr rippler rippler-default">Search</button>
 						</div>
 					</form>
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
-					<div class="text-center">
+					<div class="text-center hidden-xs">
 						<button type="button" class="btn btn-lg rippler rippler-default">How It Works</button>	
 					</div>
 			
