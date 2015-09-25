@@ -9,7 +9,7 @@
           <!-- mobile logout btn -->
           <a href="#" class="pull-right rippler rippler-default visible-xs-block" title="logout">Ls</a>
           <!-- logo -->
-          <a class="navbar-brand rippler rippler-default" href="#">
+          <a class="navbar-brand" href="#">
           	<img src="img/logo.png" alt="Guest Plate" title="Guest Plate">
           </a>
 
