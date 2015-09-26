@@ -7,7 +7,10 @@
             <span class="icon-bar"></span>
           </button>
           <!-- mobile logout btn -->
-          <a href="#" class="pull-right rippler rippler-default visible-xs-block" title="logout">Ls</a>
+          <a href="#" class="pull-right rippler rippler-default log-btns visible-xs-block" title="logout">
+            <i class="icon icon-gp-login"></i>
+            <i class="icon icon-gp-logout hide"></i>
+          </a>
           <!-- logo -->
           <a class="navbar-brand" href="#">
           	<img src="img/logo.png" alt="Guest Plate" title="Guest Plate">

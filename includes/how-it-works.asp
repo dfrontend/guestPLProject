@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				</div>
-				<div class="row text-center btn-wrapper">
+				<div class="text-center btn-wrapper">
 					<button type="button" class="btn btn-lg rippler rippler-default">Learn More</button>
 			</div>
 		</div>

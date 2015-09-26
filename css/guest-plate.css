@@ -557,9 +557,12 @@ footer .social {
 	}
 	header .navbar-toggle {
 		float: left;
+		padding: 9px 12px;
+		margin: 8px 0 0 0;
 	}
 	header .navbar-toggle .icon-bar {
 		background-color: #fff;
+		height: 3px;
 	}
 	header .navbar-brand img {
 		display: none;
@@ -585,11 +588,25 @@ footer .social {
 	}
 	header .navbar-nav>li {
 		margin: 0;
+		border-bottom: 1px solid grey;
 	}
 	header .navbar-nav>li>a {
-    	padding: 1.5em;
+    	padding: 1em;
     	text-align: center;
     	font-size: 16px;
+	}
+	header .navbar-nav>li.active a, 
+	header .navbar-nav>li.active:hover {
+		background-color: transparent;
+	}
+
+	a.log-btns, a.log-btns:hover, a.log-btns:active, a.log-btns:focus {
+		color: #fff;
+		font-size: 25px;
+		margin: 10px 12px 0 0;
+		width: 30px;
+		text-align: right;
+		text-decoration: none;
 	}
 	.section-title {	
     	font-size: 19px;
@@ -636,10 +653,10 @@ footer .social {
 	}
 	.how-it-works .btn-wrapper {
 		background-color: #f6ead6;
-		padding: 15px;
+		padding: 15px 0;
 	}
 	.how-it-works .btn-wrapper .btn {
-		width: 90%;
+		width: 92%;
 	}
 	.testimonials {
 		background-color: #fff;
@@ -713,8 +730,8 @@ footer .social {
 	}
 
 	.carousel.testimo .carousel-indicators {
-	    left: 42%;
-	    right: initial;
+	    left: 0;
+	    right: 0;
 	    bottom: 0;
 	}
 	.carousel.testimo .carousel-indicators li {
