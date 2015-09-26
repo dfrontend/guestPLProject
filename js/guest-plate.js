@@ -14,4 +14,6 @@
     // ,duration        :  300
   });
 
+    $('.carousel').bcSwipe({ threshold: 50 });
+
 });

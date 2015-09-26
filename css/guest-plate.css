@@ -504,8 +504,9 @@ header .navbar-nav>li.active:hover {
 	text-indent: 0;
 	color: #dc5139;
 	font-size: 16px;
-	width: 16px;
-    height: 18px;
+	width: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 .carousel.testimo .carousel-indicators li.active .icon-gp-radio-blank:before {
@@ -676,8 +677,9 @@ footer .social {
 	.carousel.host .host-name address {
 		font-size: 15px;
 	}
-	.host-pic {
-	    width: 70%;
+	.host-pic,
+	.carousel.testimo .host-pic {
+	    width: 200px;
 	    margin: 0 auto;
 	}
 	.carousel.host .carousel-inner {
@@ -687,6 +689,7 @@ footer .social {
 	}
 	.carousel.host .carousel-control {
 		width: 15%;
+		height: 45%;
 	}
 	.carousel.host .carousel-inner .item {
     	min-height: 540px;
@@ -696,7 +699,9 @@ footer .social {
 	.carousel.testimo .content {
 		font-size: 12px;
 	}
-	.host-images li,
+	.host-images li {
+    	width: 50%;
+	}
 	.btn-view-menu {
     	width: 100%;
 	}
@@ -736,8 +741,6 @@ footer .social {
 	}
 	.carousel.testimo .carousel-indicators li {
 	    font-size: 20px;
-	    width: 20px;
-	    height: 20px;
 	}
 
 
@@ -756,6 +759,25 @@ footer .social {
 	footer .nav a {
 		display: inline-block;
 		margin-bottom: 19px;
+	}
+ }
+
+ @media (max-width: 767px) and (orientation:landscape) {
+ 	.host-images li {
+    	width: 40%;
+	}
+	.carousel.host .carousel-control {	
+    	height: 50%;
+	}
+	.carousel.host .carousel-control .icon-gp-right-open-big, 
+	.carousel.host .carousel-control .icon-next {
+	    left: initial;
+	    margin-right: -12px;
+	    right: 0;
+	}
+	.host-pic, 
+	.carousel.testimo .host-pic {
+	    width: 220px;
 	}
  }
 

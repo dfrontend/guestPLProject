@@ -3,12 +3,13 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h1 class="section-title">Your Local Hosts</h1>
 
-				<div id="hostCarousel" class="carousel host slide">
+				<div id="hostCarousel" class="carousel host slide carousel-fade">
 
 					
 					<div class="carousel-inner">
 						<!-- item -->
 						<div class="item active">
+							<div class="container">
 								<div class="carousel-caption">
 									<div class="row wrap-1">
 										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -20,11 +21,11 @@
 										<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 											<div class="row">
 												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 host-name">
-													<h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart"></i></h3>
+													<h3>pamela Nevarez-Fisher 1 <i class="icon-gp-love-heart"></i></h3>
 													<address class="font-light">Malibu, CA</address>
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-7">
 													<div class="host-details">	
 														<ul>
 															<li class="title">
@@ -39,7 +40,7 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-5">
 													<div class="host-images pull-right text-right clearfix">
 														<ul class="clearfix">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
@@ -83,10 +84,12 @@
 										</div>
 									</div>	
 								</div>							
+						</div>
 						</div>	
 						<!-- item -->
 						<!-- item -->
 						<div class="item">
+							<div class="container">
 								<div class="carousel-caption">
 									<div class="row wrap-1">
 										<div class="col-lg-4 col-md-4 col-sm-4">
@@ -98,11 +101,11 @@
 										<div class="col-lg-8 col-md-8 col-sm-8">
 											<div class="row">
 												<div class="col-lg-12 col-md-12 col-sm-12 host-name">
-													<h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart"></i></h3>
+													<h3>pamela Nevarez-Fisher 2 <i class="icon-gp-love-heart"></i></h3>
 													<address class="font-light">Malibu, CA</address>
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-7">
 													<div class="host-details">	
 														<ul>
 															<li class="title">
@@ -117,7 +120,7 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-5">
 													<div class="host-images pull-right text-right clearfix">
 														<ul class="clearfix">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
@@ -134,7 +137,7 @@
 
 
 									</div>
-<div class="row">
+									<div class="row wrap-1">
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
@@ -160,7 +163,8 @@
 											</div>
 										</div>
 									</div>
-								</div>							
+								</div>
+							</div>							
 						</div>		
 						<!-- item -->
 					</div>	
