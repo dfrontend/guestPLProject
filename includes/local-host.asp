@@ -1,6 +1,6 @@
     <div class="container">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h1 class="section-title">Your Local Hosts</h1>
 
 				<div id="hostCarousel" class="carousel host slide">
@@ -11,20 +11,20 @@
 						<div class="item active">
 								<div class="carousel-caption">
 									<div class="row wrap-1">
-										<div class="col-lg-4 col-md-4 col-sm-4">
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
 											<div class="inset-o-shdw"></div>
 												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
 											</div>
 										</div>
-										<div class="col-lg-8 col-md-8 col-sm-8">
+										<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 											<div class="row">
-												<div class="col-lg-12 col-md-12 host-name">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 host-name">
 													<h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart"></i></h3>
 													<address class="font-light">Malibu, CA</address>
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
 													<div class="host-details">	
 														<ul>
 															<li class="title">
@@ -39,15 +39,15 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 													<div class="host-images pull-right text-right clearfix">
 														<ul class="clearfix">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
 														</ul>
 													</div>
 												</div>
@@ -60,22 +60,22 @@
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
-												<div class="col-lg-2 col-md-2 col-sm-2">
+												<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
 													<h1>4.5</h1>
 													<small>Rating</small>
 													<span></span>
 												</div>
-												<div class="col-lg-2 col-md-2 col-sm-2">
+												<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
 													<h1>0</h1>
 													<small>Reviews</small>
 													<span></span>
 												</div>
-												<div class="col-lg-2 col-md-2 col-sm-2">
+												<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
 													<h1>1</h1>
 													<small>hosted</small>
 													<span></span>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 text-right">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right">
 												<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">View Menu</button>
 												</div>
 											</div>
@@ -102,7 +102,7 @@
 													<address class="font-light">Malibu, CA</address>
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
 													<div class="host-details">	
 														<ul>
 															<li class="title">
@@ -117,15 +117,15 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 													<div class="host-images pull-right text-right clearfix">
 														<ul class="clearfix">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
+															<li class="hidden-xs"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
 														</ul>
 													</div>
 												</div>
@@ -138,22 +138,22 @@
 										<div class="col-lg-12 col-md-12 col-sm-12">
 											<div class="host-numbers">
 											<div class="row">
-												<div class="col-lg-2 col-md-2 col-sm-2">
+												<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
 													<h1>4.5</h1>
 													<small>Rating</small>
 													<span></span>
 												</div>
-												<div class="col-lg-2 col-md-2 col-sm-2">
+												<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
 													<h1>0</h1>
 													<small>Reviews</small>
 													<span></span>
 												</div>
-												<div class="col-lg-2 col-md-2 col-sm-2">
+												<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
 													<h1>1</h1>
 													<small>hosted</small>
 													<span></span>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 text-right">
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-right">
 												<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">View Menu</button>
 												</div>
 											</div>

@@ -644,6 +644,64 @@ footer .social {
 	.testimonials {
 		background-color: #fff;
 	}
+	.local-host {
+		padding-bottom: 0;
+	}
+	.carousel.host {
+		margin-top: 15px;
+	}
+	.host-name {
+		text-align: center;
+	}
+	.carousel.host .host-name h3,
+	.carousel.host .host-name address {
+		font-size: 15px;
+	}
+	.host-pic {
+	    width: 70%;
+	    margin: 0 auto;
+	}
+	.carousel.host .carousel-inner {
+	    width: 98%;
+	    right: 1%;
+	    left: 1%;
+	}
+	.carousel.host .carousel-control {
+		width: 15%;
+	}
+	.carousel.host .carousel-inner .item {
+    	min-height: 540px;
+	}
+	.host-details li {
+		font-size: 12px;
+	}
+	.host-images li,
+	.btn-view-menu {
+    	width: 100%;
+	}
+	.carousel.host .wrap-1 {
+    	height: 460px;
+	}
+	.host-numbers-bg,
+	.host-numbers {
+	    height: 78px;
+	    padding: 0;
+	}
+	.host-numbers {
+		padding-top: 10px;
+	}
+	.btn-lg {
+    	padding: 14px;
+    	font-size: 15px;
+	}
+	.carousel-control .icon-gp-right-open-big, 
+	.carousel-control .icon-gp-left-open-big {
+		top: 30%;
+	}
+	.carousel.host .icon-gp-left-open-big {
+		margin-left: -12px!important;
+	}
+
 	footer, footer a, footer a:hover {
   		font-size: 14px;
 	}
