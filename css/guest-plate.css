@@ -650,7 +650,9 @@ footer .social {
 	.carousel.host {
 		margin-top: 15px;
 	}
-	.host-name {
+	.host-name,
+	.carousel.testimo .content,
+	.carousel.testimo .name {
 		text-align: center;
 	}
 	.carousel.host .host-name h3,
@@ -672,7 +674,9 @@ footer .social {
 	.carousel.host .carousel-inner .item {
     	min-height: 540px;
 	}
-	.host-details li {
+	.host-details li,
+	.carousel.testimo .name,
+	.carousel.testimo .content {
 		font-size: 12px;
 	}
 	.host-images li,
@@ -701,6 +705,27 @@ footer .social {
 	.carousel.host .icon-gp-left-open-big {
 		margin-left: -12px!important;
 	}
+	.carousel.testimo .carousel-inner .item {
+	    min-height: 400px;
+	}
+	.carousel.testimo .content {
+		padding-top: 20px;
+	}
+
+	.carousel.testimo .carousel-indicators {
+	    left: 42%;
+	    right: initial;
+	    bottom: 0;
+	}
+	.carousel.testimo .carousel-indicators li {
+	    font-size: 20px;
+	    width: 20px;
+	    height: 20px;
+	}
+
+
+
+
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;
