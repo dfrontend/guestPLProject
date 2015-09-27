@@ -45,10 +45,10 @@
 														<ul class="clearfix">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
 														</ul>
 													</div>
 												</div>
@@ -125,10 +125,10 @@
 														<ul class="clearfix">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li class="hidden-xs"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
+															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
 														</ul>
 													</div>
 												</div>
