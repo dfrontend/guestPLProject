@@ -3,7 +3,7 @@
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h1 class="section-title">WHAT THEY’RE SAYING</h1>
 
-				<div id="testimoCarousel" class="carousel testimo slide carousel-fade">
+				<div id="testimoCarousel" class="carousel testimo slide">
 
 					
 					<div class="carousel-inner">
