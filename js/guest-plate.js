@@ -18,19 +18,9 @@
 
     var wWidth = $(window).width();
 
-    if( wWidth >= 768 && wWidth <= 992 ) {
-                // code for tablet view
-            } else if( wWidth >= 993 && wWidth <= 1200 ) {
-                // code for mobile landscape
-            } else if( wWidth <= 767 ) {
-              alert('767.1');
-                // code for mobile portrait
-                $('.host-images ul li').hide().slice(0, 1).show();
-            }
-
             if( wWidth <= 767) {
-              alert('767');
-              $('.host-images ul li').hide().slice(0, 1).show();
+              //alert('767');
+              $(".host-images ul").find('li:gt(1)').hide();
             }
 
 });
