@@ -42,7 +42,7 @@
 												</div>
 												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-5">
 													<div class="host-images pull-right text-right clearfix">
-														<ul class="clearfix">
+														<ul class="clearfix ">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
@@ -122,7 +122,7 @@
 												</div>
 												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-5">
 													<div class="host-images pull-right text-right clearfix">
-														<ul class="clearfix">
+														<ul class="clearfix ">
 															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
 															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
