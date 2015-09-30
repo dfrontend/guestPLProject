@@ -700,7 +700,7 @@ footer .social {
 		font-size: 12px;
 	}
 	.host-images li {
-    	width: 50%;
+    	width: 40%;
 	}
 	.btn-view-menu {
     	width: 100%;
@@ -742,10 +742,6 @@ footer .social {
 	.carousel.testimo .carousel-indicators li {
 	    font-size: 20px;
 	}
-
-
-
-
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;
