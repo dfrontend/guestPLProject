@@ -18,18 +18,9 @@
 
     var wWidth = $(window).width();
 
-<<<<<<< HEAD
-            if( wWidth <= 767) {
-              //alert('767');
-              $(".host-images ul").find('li:gt(1)').hide();
-            }
-
-});
-=======
     if( wWidth <= 767) {
      //alert('767');
      $(".host-images ul").find('li:gt(1)').hide();
     }
 
 });
->>>>>>> origin/master

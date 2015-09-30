@@ -514,6 +514,25 @@ header .navbar-nav>li.active:hover {
 }
 
 
+/*result page*/
+header.inner .navbar {
+	position: relative;
+	background: #dc5139;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 footer {
 	background: #dc5139;
@@ -533,7 +552,7 @@ footer a, footer a:hover {
 	text-transform: uppercase;
 }
 
-footer .social a {
+footer .social a, footer .social a:hover {
 	font-size: 25px;
 	color: #000;
 	margin: 0 5px;

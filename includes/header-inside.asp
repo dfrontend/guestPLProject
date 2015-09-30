@@ -1,4 +1,4 @@
-<header class="clearfix">
+<header class="inner clearfix">
 <nav class="navbar top">
 	<div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -13,7 +13,7 @@
           </a>
           <!-- logo -->
           <a class="navbar-brand" href="index.asp">
-          	<img src="img/logo.png" alt="Guest Plate" title="Guest Plate">
+          	<img src="img/logo-white.png" alt="Guest Plate" title="Guest Plate">
           </a>
 
         </div>

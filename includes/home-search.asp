@@ -32,7 +32,7 @@
 							<input type="text" class="form-control width-100pr truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
 						</div>
 						<div class="wrap last pull-left width-20pr">
-							<button type="button" class="btn color-white width-100pr rippler rippler-default">Search</button>
+							<button type="button" onclick="window.open('search-results.asp','_self')" class="btn color-white width-100pr rippler rippler-default">Search</button>
 						</div>
 					</form>
 
