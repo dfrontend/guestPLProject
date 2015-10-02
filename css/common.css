@@ -11,19 +11,36 @@
 .clearfix {
     *zoom: 1;
 }
-.font-bold, strong, b {
-	font-family: 'montserratbold';
+
+.font-up-case {
+  text-transform: uppercase;
+}
+.font-low-case {
+  text-transform: lowercase;
+}
+.font-capital {
+  text-transform: capitalize;
 }
 
-.font-light {
-	font-family: 'montserratlight';
-}
 /*bg color*/
 .bg-white {
 	background-color: #fff;
 }
 .bg-skin {
   background-color: #f6ead6;
+}
+.bg-brick {
+  background-color: #dc5139;
+}
+
+.v-align-mid {
+  vertical-align: middle;
+}
+.v-align-top {
+  vertical-align: top;
+}
+.v-align-btm {
+  vertical-align: bottom;
 }
 
 .width-100pr {
@@ -60,9 +77,16 @@
 .color-white {
 	color: #fff!important;
 }
+.color-black {
+  color: #000;
+}
 .color-skin {
   color: #f6ead6;
 }
+.color-brick {
+  color: #dc5139;
+}
+
 .pos-relative {
 	position: relative;
 }

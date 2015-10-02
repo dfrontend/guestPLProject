@@ -1,18 +1,11 @@
-<section class="home-search">
-	<div class="text-center">
-		<h1 class="clearfix">Where Would You Like to Eat?</h1>
-		<small class="clearfix font-light hidden-xs">Authentic home cooked meals from local hosts.</small>
-	</div>
-
-
-	<div class="container">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="row">
-			<div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
-				<div class="search-module">
-					<div class="wrapper clearfix">
+			<div class="search-module clearfix">
 					<form class="form-inline">
-
-						<div class="wrap pull-left width-30pr pos-relative">
+					
+						<div class="wrap-1 col-lg-3 col-md-3 col-sm-12 col-xs-12 pos-relative">
 							<div class="dropdown">
 							
 							<i class="icon-gp-location"></i>
@@ -27,25 +20,28 @@
 								</ul>
 							</div>
 						</div>
-						<div class="wrap form-group pull-left width-50pr pos-relative">
+						<div class="wrap-2 form-group col-lg-4 col-md-4 col-sm-12 col-xs-12 pos-relative">
 							<i class="icon-gp-search"></i>
 							<input type="text" class="form-control width-100pr truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
 						</div>
-						<div class="wrap last pull-left width-20pr">
+
+						<div class="wrap-3 last additional-opt pull-right">
+							<a href="#" class="color-black"><span class="glyphicon glyphicon-triangle-right"></span> Additional Options</a>
+						</div>
+
+						<div class="wrap-4 col-lg-2 col-md-2 col-sm-12 col-xs-12 pull-right">
 							<button type="button" onclick="window.open('search-results.asp','_self')" class="btn color-white width-100pr rippler rippler-default">Search</button>
 						</div>
-					</form>
+</form>
 
-					</div>
+					
 
 
 				</div>
-			</div>
-			<div class="clearfix"></div>
-					<div class="text-center hidden-xs">
-						<button type="button" class="btn btn-lg rippler rippler-default">How It Works</button>	
-					</div>
-			
+
+</div>
+
+					
 		</div>
 	</div>
-</section>
+</div>

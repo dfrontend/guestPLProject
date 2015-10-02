@@ -38,9 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-gp-clock:before {
-  content: "a";
-}
 .icon-gp-location:before {
   content: "b";
 }
@@ -124,4 +121,31 @@
 }
 .icon-gp-love-heart:before {
   content: "D";
+}
+.icon-gp-clock:before {
+  content: "v";
+}
+.icon-gp-sort-amount:before {
+  content: "a";
+}
+.icon-gp-sort-amount-two:before {
+  content: "E";
+}
+.icon-gp-angle-down:before {
+  content: "F";
+}
+.icon-gp-angle-left:before {
+  content: "G";
+}
+.icon-gp-angle-right:before {
+  content: "H";
+}
+.icon-gp-angle-up:before {
+  content: "I";
+}
+.icon-gp-cancel:before {
+  content: "J";
+}
+.icon-gp-remove:before {
+  content: "L";
 }

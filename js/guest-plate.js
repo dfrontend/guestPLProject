@@ -1,9 +1,9 @@
  $(function(){
 
-    $(".search-module .dropdown-menu li a").click(function(){
+    $(".dropdown .dropdown-menu li a").click( function(){
 
-      $("button#category .btn-value").text($(this).text());
-      $("button#category .btn-value").val($(this).text());
+      $(this).parent().parent().parent().find("button .btn-value").text($(this).text());
+      $(this).parent().parent().parent().find("button .btn-value").val($(this).text());
 
    });
 
