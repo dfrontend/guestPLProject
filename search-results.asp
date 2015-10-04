@@ -10,7 +10,7 @@
 <section class="page-wrapper">
 <!-- #include file="includes/header-inside.asp" -->
 
-<section class="modify-search bg-skin">
+<section class="modify-search bg-skin hidden-xs">
 	<!-- #include file="includes/modify-search-results.asp" -->
 </section>
 

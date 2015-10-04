@@ -181,3 +181,7 @@
 .carousel-fade .carousel-control {
   z-index: 2;
 }
+
+a:focus, a:hover {
+    color: inherit;
+}

@@ -5,7 +5,7 @@
 			<div class="search-module clearfix">
 					<form class="form-inline">
 					
-						<div class="wrap-1 col-lg-3 col-md-3 col-sm-12 col-xs-12 pos-relative">
+						<div class="wrap-1 col-lg-3 col-md-3 col-sm-3 col-xs-12 pos-relative">
 							<div class="dropdown">
 							
 							<i class="icon-gp-location"></i>
@@ -20,7 +20,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="wrap-2 form-group col-lg-4 col-md-4 col-sm-12 col-xs-12 pos-relative">
+						<div class="wrap-2 form-group col-lg-4 col-md-4 col-sm-4 col-xs-12 pos-relative">
 							<i class="icon-gp-search"></i>
 							<input type="text" class="form-control width-100pr truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
 						</div>
@@ -29,8 +29,10 @@
 							<a href="#" class="color-black"><span class="glyphicon glyphicon-triangle-right"></span> Additional Options</a>
 						</div>
 
-						<div class="wrap-4 col-lg-2 col-md-2 col-sm-12 col-xs-12 pull-right">
-							<button type="button" onclick="window.open('search-results.asp','_self')" class="btn color-white width-100pr rippler rippler-default">Search</button>
+						<div class="wrap-4 col-lg-2 col-md-2 col-sm-1 col-xs-12 pull-right">
+							<button type="button" onclick="window.open('search-results.asp','_self')" class="btn color-white width-100pr rippler rippler-default text-center">
+							<span class="hidden-sm hidden-xs">Search</span> 
+							<span class="icon-gp-search visible-sm visible-xs"></span></button>
 						</div>
 </form>
 

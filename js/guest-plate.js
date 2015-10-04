@@ -20,7 +20,22 @@
 
     if( wWidth <= 767) {
      //alert('767');
-     $(".host-images ul").find('li:gt(1)').hide();
+
+     // hide images of index greater than 1 on mobile
+     $(".local-host .host-images ul").find('li:gt(1)').hide();
+
+    // srch result item mobile images slider
+     var itemliwidth = $('.search-result-item .host-images li').outerWidth(true);
+
+     var itemlinumb = $('.search-result-item .host-images li').length;
+
+     //console.log(itemliwidth);
+     //console.log(itemlinumb);
+
+     $('.search-result-item .host-images ul').each(function(){
+        $(this).width(itemliwidth * itemlinumb);
+     })
+
     }
 
 });

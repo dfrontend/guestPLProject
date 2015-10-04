@@ -1,6 +1,6 @@
 <div class="search-results-criteria">
 	<div class="applied-filters">
-		Hosts in Los Angeles who serve
+		<div class="display-inline title">Hosts in Los Angeles who serve</div>
 		<span class="font-semi"><i class="icon-gp-remove"></i>Vegan</span> <i class="icon-gp-right-open-big"></i> 
 		<span class="font-semi"><i class="icon-gp-remove"></i>Dinner</span> <i class="icon-gp-right-open-big"></i>
 		<span class="font-semi"><i class="icon-gp-remove"></i>Entrées</span> <i class="icon-gp-right-open-big"></i>

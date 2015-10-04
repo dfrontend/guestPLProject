@@ -74,6 +74,7 @@ body, html {
     float: left;
     height: 42px;
     margin: 14px 0 0 20px;
+    padding: 0;
 }
 header .navbar {
 	position: absolute;
@@ -410,7 +411,7 @@ header .navbar-nav>li.active:hover {
 
 .host-details li.title {
 	color: #dc5139;
-	margin-bottom: 5px;
+	margin-bottom: 5px!important;
 	text-transform: uppercase;
 }
 .host-details li i {
@@ -548,11 +549,22 @@ header.inner .navbar {
 	background: #dc5139;
 	margin: 0;
 }
+header.inner .navbar-nav {
+	margin-top: 16px;
+}
 header.inner .navbar-brand {
 	padding: 0;
     height: auto;
     margin: 13px 0 14px 20px;
 }
+header.inner .navbar-nav .btn {
+	border: 2px solid #fff;
+	margin: 0;
+}
+header.inner .navbar-nav>li>a {
+	margin-top: 2px;
+}
+
 .modify-search .search-module {
 	margin: 0;
 	padding: 15px 0;
@@ -714,10 +726,12 @@ header.inner .navbar-brand {
 .search-result-item .host-numbers .wrap {
 	padding: 0;
 	float: left;
-	width: 8%;
+	width: 15%;
 	margin-right: 20px;
 }
-
+.search-result-item ..host-images li {
+	width: 24%;
+}
 
 
 /*footer*/
@@ -769,7 +783,8 @@ footer .social {
 	}
 	header .navbar-toggle .icon-bar {
 		background-color: #fff;
-		height: 3px;
+		height: 2px;
+    	margin-bottom: 6px;
 	}
 	header .navbar-brand img {
 		display: none;
@@ -909,7 +924,8 @@ footer .social {
 	.host-images li {
     	width: 40%;
 	}
-	.btn-view-menu {
+	.btn-view-menu,
+	.search-result-item .host-images img {
     	width: 100%;
 	}
 	.carousel.host .wrap-1 {
@@ -949,6 +965,101 @@ footer .social {
 	.carousel.testimo .carousel-indicators li {
 	    font-size: 20px;
 	}
+	header.inner .navbar-nav .btn {
+		border: none;
+	}
+
+	.search-result-item .host-name h3, 
+	.search-result-item .host-name address {
+		display: block!important;
+	}
+	.search-result-item .host-pic {
+		margin-bottom: 20px;
+	}
+	.search-result-item .host-name i {
+		position: absolute;
+	    top: -220px;
+	    right: 20px;
+	    z-index: 9;
+	}
+	.search-result-item .host-numbers .wrap-1,
+	.search-result-item .host-numbers .wrap-2 {
+		float: none!important;
+		text-align: center
+	}
+	.search-result-item .host-numbers .wrap {
+		display: inline-block;
+		float: none;
+		margin-bottom: 12px;
+		margin-right: 0;
+		width: 22%;
+	}
+	.applied-filters .title {
+		display: block;
+	}
+
+	.search-result-item .host-numbers {
+		margin-right: -15px;
+    	margin-left: -15px;
+    	margin-top: 0;
+	}
+
+
+	.search-result-item .host-numbers h1 {
+	    font-size: 21px;
+	}
+	.search-result-item .host-numbers small {
+	    font-size: 11px;
+	}
+
+	.search-result-item .host-details li {
+    	margin-bottom: 12px;
+	}
+	.search-result-item .host-images {
+		float: none!important;
+		height: 67px;
+/*		width: 100%;*/
+		overflow: hidden;
+		overflow-x: scroll;
+		text-align: left;
+		border-top: 1px solid #e5d9c6;
+		margin: 10px 5% 0 5%;
+    	/*padding: 0 5%;*/
+	}
+	.search-result-item .host-images ul {
+		text-align: left;
+		height: 47px;
+		width: auto;
+		overflow: hidden;
+		margin: 10px 0;
+	}
+	.search-result-item .host-images li {
+		margin: 0 5px;
+		height: 47px;
+		width: 47px;
+		float: left;
+	}
+
+	.search-result-item .wrap {
+		padding: 0;
+	}
+
+	.search-result-item .carousel-control {
+	    background-image: none!important;
+	    opacity: 1;
+	    text-shadow: none;
+	}
+
+	.search-result-item .carousel-control.right span, 
+	.search-result-item .carousel-control.left span {
+	    top: 41%;
+	    left: 15%;
+	    color: #000;
+	}
+	.search-result-item .carousel-control.right span {
+		left: initial;
+		right: 15%;
+	}
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;
@@ -981,6 +1092,9 @@ footer .social {
 	.host-pic, 
 	.carousel.testimo .host-pic {
 	    width: 220px;
+	}
+	.search-result-item .host-name i {
+    	top: -230px;
 	}
  }
 
@@ -1063,6 +1177,17 @@ footer .social {
 	.carousel.testimo .name {
 		font-size: 12px;
 	}
+	.modify-search .search-module input.form-control,
+	.modify-search .search-module .btn, 
+	.modify-search .search-module .dropdown button {
+    	font-size: 16px;
+    }
+	.modify-search .wrap-4 span {
+		margin-top: 4px;
+	}
+
+
+
 	footer {
 	    padding: 28px 0;
 	}
