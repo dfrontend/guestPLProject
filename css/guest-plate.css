@@ -388,6 +388,7 @@ header .navbar-nav>li.active:hover {
 .carousel.host .host-name address {
 	font-size: 22px;
 	line-height: 100%;
+	text-transform: capitalize;
 }
 .carousel.host .wrap-1 {
 	height: 330px;
@@ -678,6 +679,7 @@ header.inner .navbar-nav>li>a {
 .search-result-item .host-name h3,
 .search-result-item .host-name address {
 	margin-bottom: 0;
+	text-transform: capitalize;
 }
 
 .search-result-item .wrap {
@@ -732,6 +734,8 @@ header.inner .navbar-nav>li>a {
 .search-result-item ..host-images li {
 	width: 24%;
 }
+
+
 
 
 /*footer*/
@@ -1061,6 +1065,7 @@ footer .social {
 		right: 15%;
 	}
 
+
 	footer, footer a, footer a:hover {
   		font-size: 14px;
 	}
@@ -1204,4 +1209,12 @@ footer .social {
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media(min-width:1200px) {  }
+@media(min-width:992px) { 
+	.search-results-wrapper .col-left {
+		background: #fff;
+		padding-right: 0;
+	}
+	.search-results-wrapper .col-right {
+		background-color: #EFEFEF;
+	}
+ }

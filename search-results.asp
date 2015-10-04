@@ -17,7 +17,7 @@
 <section class="search-results-wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-left">
 				<!-- #include file="includes/search-results-criteria.asp" -->
 
 				<div class="row">
@@ -31,7 +31,7 @@
 				</div>	
 				
 			</div>
-			<div class="map-results hidden-sm hidden-xs">
+			<div class="map-results col-lg-4 col-md-4 hidden-sm hidden-xs col-right">
 				<!-- #include file="includes/map-results.asp" -->
 			</div>
 		</div>

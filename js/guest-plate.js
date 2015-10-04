@@ -14,10 +14,20 @@
     // ,duration        :  300
   });
 
+    $(".host-images ul").find('li:gt(5)').hide();
+
+    //carousel swipe on mobile
     $('.carousel').bcSwipe({ threshold: 50 });
+
+
+        var srchheight = $('.search-results-wrapper').height();
+        //console.log(srchheight);
+        $('.map-results').css('height', srchheight);
+
 
     var wWidth = $(window).width();
 
+    //only mobile devices
     if( wWidth <= 767) {
      //alert('767');
 
@@ -25,15 +35,15 @@
      $(".local-host .host-images ul").find('li:gt(1)').hide();
 
     // srch result item mobile images slider
-     var itemliwidth = $('.search-result-item .host-images li').outerWidth(true);
+     $('.search-result-item').each(function(){
 
-     var itemlinumb = $('.search-result-item .host-images li').length;
+        //console.log(itemliwidth);
+        //console.log(itemlinumb);
 
-     //console.log(itemliwidth);
-     //console.log(itemlinumb);
+        var itemliwidth = $(this).find('.host-images li').outerWidth(true);
+        var itemlicount = $(this).find('.host-images li').length;
 
-     $('.search-result-item .host-images ul').each(function(){
-        $(this).width(itemliwidth * itemlinumb);
+        $(this).find('.host-images ul').width(itemliwidth * itemlicount);
      })
 
     }
