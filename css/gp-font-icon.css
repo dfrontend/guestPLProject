@@ -38,15 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-gp-location:before {
-  content: "b";
-}
-.icon-gp-search:before {
-  content: "c";
-}
-.icon-gp-social-twitter:before {
-  content: "e";
-}
 .icon-gp-instagram:before {
   content: "f";
 }
@@ -148,4 +139,49 @@
 }
 .icon-gp-remove:before {
   content: "L";
+}
+.icon-gp-chat-bubble-two:before {
+  content: "K";
+}
+.icon-gp-exclamation-circle:before {
+  content: "M";
+}
+.icon-gp-tag-2:before {
+  content: "N";
+}
+.icon-gp-star-empty:before {
+  content: "O";
+}
+.icon-gp-star-half:before {
+  content: "P";
+}
+.icon-gp-star-half-1:before {
+  content: "Q";
+}
+.icon-gp-star-solid:before {
+  content: "R";
+}
+.icon-gp-camera:before {
+  content: "S";
+}
+.icon-gp-list-bullet:before {
+  content: "T";
+}
+.icon-gp-truck-1:before {
+  content: "U";
+}
+.icon-gp-cutlery:before {
+  content: "V";
+}
+.icon-gp-calendar:before {
+  content: "W";
+}
+.icon-gp-location:before {
+  content: "X";
+}
+.icon-gp-search:before {
+  content: "Y";
+}
+.icon-gp-social-twitter:before {
+  content: "Z";
 }
