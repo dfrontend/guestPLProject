@@ -15,34 +15,27 @@
 </section>
 
 <section class="profile-pg-wrapper">
-<!-- host photo and info -->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="host-profile">
-					profile
-				</div>
-			</div>
-		</div>
-	</div>
 
-<!-- host like numbers -->
-<div class="host-numbers">
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">		
-			host numbers
-		</div>
-	</div>
-</div>
-</div>
+<!-- host info -->
+<!-- #include file="includes/profile-host-bio.asp" -->
+
+
 
 <!-- host gallery and deals -->
 <div class="container">
 		<div class="row">
 		<!-- left -->
 		<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-			left col
+
+		<!-- photo section -->
+		<!-- #include file="includes/profile-host-photo.asp" -->
+
+		<!-- menu section -->
+		<!-- #include file="includes/profile-host-menu.asp" -->
+
+		<!-- review section -->
+		<!-- #include file="includes/profile-host-review.asp" -->
+
 		</div>
 
 		<!-- right -->

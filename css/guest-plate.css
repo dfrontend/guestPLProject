@@ -371,7 +371,8 @@ header .navbar-nav>li.active:hover {
     box-shadow:inset 0px 0px 40px rgba(0,0,0,0.7);
 }
 
-.carousel.host .host-name h3 {
+.carousel.host .host-name h3,
+.host-profile .host-name h3 {
 	padding: 0;
 	margin: 0;
 	text-transform: capitalize;
@@ -379,13 +380,15 @@ header .navbar-nav>li.active:hover {
 	font-size: 30px;
 	line-height: 100%;
 }
-.carousel.host .host-name i {
+.carousel.host .host-name i,
+.host-profile .host-name i {
 	color: #dc5139;
 	margin-left: 10px;
 	margin-bottom: 0;
 	vertical-align: middle;
 }
-.carousel.host .host-name address {
+.carousel.host .host-name address,
+.host-profile .host-name address {
 	font-size: 22px;
 	line-height: 100%;
 	text-transform: capitalize;
@@ -734,6 +737,18 @@ header.inner .navbar-nav>li>a {
 /*.search-result-item ..host-images li {
 	width: 24%;
 }*/
+
+/*profile page*/
+.host-profile {
+	padding: 30px 0;
+}
+
+
+
+
+
+
+
 
 
 
