@@ -2,7 +2,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 	<link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
