@@ -19,15 +19,68 @@
     //carousel swipe on mobile
     $('.carousel').bcSwipe({ threshold: 50 });
 
+// result page heights
+    var srchheight = $('.search-results-wrapper').height();
+    //console.log(srchheight);
+    $('.map-results').css('height', srchheight);
 
-        var srchheight = $('.search-results-wrapper').height();
-        //console.log(srchheight);
-        $('.map-results').css('height', srchheight);
 
 
+
+
+// typeahead
+var dataSource = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('country'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        prefetch: {
+            url: "http://jsbin.com/nepazu/1.json"
+        }
+    });
+
+
+    dataSource.initialize();
+
+$('.typeahead').typeahead({
+          hint: true,
+          highlight: true,
+          minLength: 1
+    }, {
+        displayKey: 'country',
+        source: dataSource.ttAdapter()                                      
+
+    });
+
+
+// $('.typeahead').typeahead(null, {
+//   name: 'countries',
+//   display: function(countries) {
+//     return countries.country.country_name;        
+//   },
+//    source: countries.ttAdapter(),
+//   templates: {
+//     empty: [
+//       '<div class="empty-message">',
+//         'no match',
+//       '</div>'
+//     ].join('\n'),
+//     suggestion: Handlebars.compile('<div><strong>{{name}}</strong> – {{code}}</div>')
+//   }
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+//only mobile devices
     var wWidth = $(window).width();
 
-    //only mobile devices
     if( wWidth <= 767) {
      //alert('767');
 

@@ -12,8 +12,12 @@
 					<div class="wrapper clearfix">
 					<form class="form-inline">
 
-						<div class="wrap pull-left width-30pr pos-relative">
-							<div class="dropdown">
+						<div class="wrap pull-left width-30pr location pos-relative">
+						<i class="icon-gp-location"></i>
+						<input type="text" class="form-control width-100pr typeahead truncate" id="location" placeholder="Location">
+						<span class="glyphicon glyphicon-chevron-down pull-right"></span>
+
+							<!-- <div class="dropdown">
 							
 							<i class="icon-gp-location"></i>
 								<button id="category" class="width-100pr clearfix text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="btn-value display-block truncate">Location</span> 
@@ -25,11 +29,11 @@
 									<li><a href="javascript:void(0);">Location 2</a></li>
 									<li><a href="javascript:void(0);">Location long text</a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
-						<div class="wrap form-group pull-left width-50pr pos-relative">
+						<div class="wrap form-group pull-left width-50pr food-type pos-relative">
 							<i class="icon-gp-search"></i>
-							<input type="text" class="form-control width-100pr truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
+							<input type="text" class="form-control width-100pr typeahead truncate" id="foodType" placeholder="Search for Host, Cuisine or Dish">
 						</div>
 						<div class="wrap last pull-left width-20pr">
 							<button type="button" onclick="window.open('search-results.asp','_self')" class="btn color-white width-100pr rippler rippler-default">Search</button>
