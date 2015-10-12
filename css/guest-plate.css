@@ -1090,6 +1090,9 @@ footer .social {
 	.carousel.testimo .carousel-indicators li {
 	    font-size: 20px;
 	}
+	header.inner .navbar-nav {
+		margin-top: 0;
+	}
 	header.inner .navbar-nav .btn {
 		border: none;
 	}
@@ -1185,7 +1188,10 @@ footer .social {
 		left: initial;
 		right: 15%;
 	}
-
+	.search-result-item .host-numbers .btn {
+	    padding: 13px 20px;
+	    font-size: 15px;
+	}
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;

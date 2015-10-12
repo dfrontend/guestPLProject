@@ -43,8 +43,6 @@
 															
 														</ul>
 
-														<a class="left carousel-control visible-xs" href="#hostCarousel" data-slide="prev"><span class="icon-gp-left-open-big"></span></a>
-														<a class="right carousel-control visible-xs" href="#hostCarousel" data-slide="next"><span class="icon-gp-right-open-big"></span></a>
 													</div>
 												</div>
 											</div>
@@ -130,8 +128,6 @@
 															
 														</ul>
 
-														<a class="left carousel-control visible-xs" href="#hostCarousel" data-slide="prev"><span class="icon-gp-left-open-big"></span></a>
-														<a class="right carousel-control visible-xs" href="#hostCarousel" data-slide="next"><span class="icon-gp-right-open-big"></span></a>
 													</div>
 												</div>
 											</div>
@@ -216,8 +212,6 @@
 															
 														</ul>
 
-														<a class="left carousel-control visible-xs" href="#hostCarousel" data-slide="prev"><span class="icon-gp-left-open-big"></span></a>
-														<a class="right carousel-control visible-xs" href="#hostCarousel" data-slide="next"><span class="icon-gp-right-open-big"></span></a>
 													</div>
 												</div>
 											</div>
@@ -301,9 +295,6 @@
 															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
 															
 														</ul>
-
-														<a class="left carousel-control visible-xs" href="#hostCarousel" data-slide="prev"><span class="icon-gp-left-open-big"></span></a>
-														<a class="right carousel-control visible-xs" href="#hostCarousel" data-slide="next"><span class="icon-gp-right-open-big"></span></a>
 													</div>
 												</div>
 											</div>
