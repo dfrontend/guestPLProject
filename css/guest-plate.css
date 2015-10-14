@@ -1047,6 +1047,11 @@ footer .social {
 		height: 45%;
 	}*/
 
+	.carousel.host .slick-prev:before, 
+	.carousel.host .slick-next:before {
+		font-size: 30px;
+	}
+
 	.carousel.host .slick-prev, 
 	.carousel.host .slick-next {
 	    top: 15%;
@@ -1061,6 +1066,9 @@ footer .social {
 	}
 	.host-images li {
     	width: 40%;
+	}
+	.carousel.host .host-images li {
+    	width: 50%;
 	}
 	.btn-view-menu,
 	.search-result-item .host-images img {
