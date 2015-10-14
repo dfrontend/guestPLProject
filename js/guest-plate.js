@@ -1,4 +1,4 @@
- $(function(){
+ $(document).ready(function() {
 
     $(".dropdown .dropdown-menu li a").click( function(){
 
@@ -23,7 +23,6 @@
     var srchheight = $('.search-results-wrapper').height();
     //console.log(srchheight);
     $('.map-results').css('height', srchheight);
-
 
 
 
@@ -69,8 +68,14 @@ $('.typeahead').typeahead({
 
 
 
-
-
+// home local host slick slider
+$('.single-item.host').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
 
 
 

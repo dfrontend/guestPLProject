@@ -20,7 +20,8 @@
 
 <!-- local host -->
 <section class="local-host pos-relative">
-	<!-- #include file="includes/local-host.asp" -->
+
+	<!-- #include file="includes/local-host-slick.asp" -->
 </section>
 <!-- local host -->
 
