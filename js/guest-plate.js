@@ -69,16 +69,28 @@ $('.typeahead').typeahead({
 
 
 // home local host slick slider
+$('.single-item.host, .single-item.testimo').hide();
+
 $('.single-item.host').slick({
         dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1
-    });
+});
 
+$('.single-item.host').show();
 
-
+// home testimonial slick slider
+$('.single-item.testimo').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+});
+$('.single-item.testimo').show();
 
 
 
