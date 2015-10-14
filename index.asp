@@ -34,7 +34,8 @@
 
 <!-- what they say -->
 <section class="testimonials">
-	<!-- #include file="includes/testimonials.asp" -->
+
+	<!-- #include file="includes/testimonials-slick.asp" -->
 </section>
 <!-- what they say -->
 
