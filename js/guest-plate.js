@@ -76,7 +76,8 @@ $('.single-item.host').slick({
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        // fade: true
 });
 
 $('.single-item.host').show();
@@ -88,7 +89,8 @@ $('.single-item.testimo').slick({
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        // fade: true
 });
 $('.single-item.testimo').show();
 

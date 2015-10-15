@@ -951,6 +951,9 @@ footer .social {
 	.local-host {
 		padding-bottom: 0;
 	}
+	.local-host > .container > .row {
+		margin: 0!important;
+	}
 	.carousel.host,
 	.carousel.testimo {
 		padding-top: 15px;
@@ -994,6 +997,7 @@ footer .social {
 	    width: 100%;
 	    bottom: -10px;
 	}
+
 	.host-images li {
     	width: 40%;
 	}
@@ -1151,6 +1155,10 @@ footer .social {
 	}
 	.search-result-item .host-name i {
     	top: -230px;
+	}
+	.host-images > ul {
+		width: 60%;
+		float: right;
 	}
  }
 
