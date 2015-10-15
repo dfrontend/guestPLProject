@@ -954,6 +954,9 @@ footer .social {
 	.local-host > .container > .row {
 		margin: 0!important;
 	}
+	/*.local-host .host-col {
+		padding: 0;
+	}*/
 	.carousel.host,
 	.carousel.testimo {
 		padding-top: 15px;
