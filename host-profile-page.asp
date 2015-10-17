@@ -3,7 +3,7 @@
 <head>
 	<!-- #include file="includes/head.asp" -->
 
-	<title>Guest Plate: Profile</title>
+	<title>Guest Plate: Host Profile</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 <!-- host info -->
 <!-- #include file="includes/profile-host-bio.asp" -->
 
-
+<!-- #include file="includes/profile-guest-bio.asp" -->
 
 <!-- host gallery and deals -->
 <div class="container">
@@ -36,11 +36,20 @@
 		<!-- review section -->
 		<!-- #include file="includes/profile-host-review.asp" -->
 
+		<!-- dishes section -->
+		<!-- #include file="includes/profile-dishes.asp" -->
+
 		</div>
 
 		<!-- right -->
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-			right col
+		
+		<!-- about section -->
+		<!-- #include file="includes/profile-about.asp" -->
+
+		<!-- social section -->
+		<!-- #include file="includes/profile-social.asp" -->
+
 		</div>
 		</div>
 	</div>

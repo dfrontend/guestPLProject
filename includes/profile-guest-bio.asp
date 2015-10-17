@@ -6,15 +6,15 @@
 										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
 											<div class="inset-o-shdw"></div>
-												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
+												<img src="img/large/guest-profile-pic.jpg" alt="host" title="host">
 											</div>
 										</div>
 										<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 											<div class="row">
 												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 host-name">
 													
-													<h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart color-brick"></i></h3>
-													<address>Malibu, CA</address>
+													<h3>brad sullivan</h3>
+													<address>Boston, MA</address>
 													
 												</div>
 											
@@ -22,15 +22,14 @@
 													<div class="host-details">	
 														<ul>
 															<li class="title">
-															<i class="icon-gp-clock pull-left"></i>TODAY’S HOURS</li>
-															<li class="mbn font-up-case">9:00 am - 1:00 pm</li>
-															<li class="font-up-case">4:00 am - 7:00 pm</li>
+															<i class="icon-gp-cutlery pull-left"></i>dishes</li>
+															<li class="font-up-case">3</li>
 															<li class="title">
-															<i class="icon-gp-plate-cover pull-left"></i>cuisine</li>
-															<li>French, Italian, Mediterranean</li>
+															<i class="icon-gp-love-heart-fill pull-left"></i>favourites</li>
+															<li>3</li>
 															<li class="title">
-															<i class="icon-gp-cutlery pull-left"></i>DINING OPTIONS</li>
-															<li class="mbn">Dine In, Delivery, Take Out </li>
+															<i class="icon-gp-camera pull-left"></i>photos</li>
+															<li class="mbn">7</li>
 														</ul>	
 													</div>
 												</div>
@@ -54,17 +53,14 @@
 						<span></span>
 					</div>
 					<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<h1>0</h1>
+						<h1>2</h1>
 						<small>Reviews</small>
 						<span></span>
 					</div>
-					<div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
-						<h1>1</h1>
-						<small>hosted</small>
+					<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4">
+						<h1>3</h1>
+						<small>experiences</small>
 						<span></span>
-					</div>
-					<div class="col-lg-9 col-md-6 col-sm-6 col-xs-12 text-right">
-						<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">Order Now</button>
 					</div>
 
 				</div>
