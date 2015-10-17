@@ -754,11 +754,14 @@ header.inner .navbar-nav>li>a {
 .search-result-item .host-details li i {
     margin-left: -15px;
 }
-.search-result-item .host-images img {
-	width: 90%;
+.search-result-item .host-images {
+	text-align: right;
 }
-.search-result-item .host-images li {
-	margin: 0 0 9px 0;
+
+.search-result-item .host-images div.item {
+	margin: 0 0 10px 10px;
+	display: inline-block;
+	width: 50px;
 }
 .search-result-item .host-numbers {
 	margin: 0;
@@ -951,15 +954,16 @@ footer .social {
 	.local-host {
 		padding-bottom: 0;
 	}
-	.local-host > .container > .row {
-		margin: 0!important;
-	}
-	/*.local-host .host-col {
-		padding: 0;
-	}*/
+
 	.carousel.host,
 	.carousel.testimo {
 		padding-top: 15px;
+	}
+	.carousel.host .slick-prev, 
+	.carousel.host .slick-next {
+	    top: 30%;
+	    width: 30px;
+	    height: 30px;
 	}
 	.host-name,
 	.carousel.testimo .content,
@@ -985,10 +989,16 @@ footer .social {
 	.carousel.host .slick-next:before {
 		font-size: 30px;
 	}
+	.carousel.host .slick-prev {
+		left: -10px;
+	}
+	.carousel.host .slick-next {
+		right: -10px;
+	}
 
 	.carousel.host .slick-prev, 
 	.carousel.host .slick-next {
-	    top: 15%;
+	    top: 20%;
 	}
 
 	.host-details li,
@@ -1080,56 +1090,44 @@ footer .social {
 	.search-result-item .host-numbers small {
 	    font-size: 11px;
 	}
-
+	.search-result-item .host-details {
+		border-bottom: 1px solid #e5d9c6;
+		padding-bottom: 5px;
+	}
 	.search-result-item .host-details li {
     	margin-bottom: 12px;
 	}
+
 	.search-result-item .host-images {
-		float: none!important;
-		height: 67px;
-		overflow: hidden;
-		overflow-x: scroll;
 		text-align: left;
-		border-top: 1px solid #e5d9c6;
-		margin: 10px 5% 0 5%;
+		padding: 10px 0;
+		width: 95%;
+		margin: 0 auto;
+
 	}
-	.search-result-item .host-images ul {
-		text-align: left;
-		height: 47px;
+
+	.search-result-item .host-images div.item {
+		margin: 0 5px 0 5px;
 		width: auto;
-		overflow: hidden;
-		margin: 10px 0;
 	}
-	.search-result-item .host-images li {
-		margin: 0 5px;
-		height: 47px;
-		width: 47px;
-		float: left;
+	.search-result-item .host-images .slick-next {
+		margin-left: -2px;
+	}
+	.search-result-item .host-images .slick-next {
+		right: -20px;
+	}
+	.search-result-item .host-images .slick-prev {
+		left: -20px;
 	}
 
 	.search-result-item .wrap {
 		padding: 0;
 	}
 
-	.search-result-item .carousel-control {
-	    background-image: none!important;
-	    opacity: 1;
-	    text-shadow: none;
-	}
-
-	.search-result-item .carousel-control.right span, 
-	.search-result-item .carousel-control.left span {
-	    top: 41%;
-	    left: 15%;
-	    color: #000;
-	}
-	.search-result-item .carousel-control.right span {
-		left: initial;
-		right: 15%;
-	}
 	.search-result-item .host-numbers .btn {
-	    padding: 13px 20px;
+	    padding: 15px 20px;
 	    font-size: 15px;
+	    line-height: 110%;
 	}
 
 	footer, footer a, footer a:hover {

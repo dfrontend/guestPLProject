@@ -16,8 +16,8 @@
 													
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-details font-semi">	
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 host-details">
+													<div class="font-semi">	
 														<ul>
 															<li class="title">
 															<i class="icon-gp-clock pull-left"></i>TODAY’S HOURS</li>
@@ -31,16 +31,22 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-images pull-right text-right clearfix">
-														<ul class="clearfix ">
-															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
-															
+												<div class="col-lg-5 col-md-6 col-sm-6 pull-right col-xs-12">
+													<div class="slide multiple-items host-images">
+														<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+														<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
+
+															<!-- extra -->
+															<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
 														</ul>
 
 													</div>
@@ -80,8 +86,7 @@
 										</div>
 									</div>
 									</div>
-
-
+<!-- first / -->
 									<!-- second -->
 <div class="search-result-item">
 <div class="wrap">
@@ -101,8 +106,8 @@
 													
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-details font-semi">	
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 host-details">
+													<div class="font-semi">	
 														<ul>
 															<li class="title">
 															<i class="icon-gp-clock pull-left"></i>TODAY’S HOURS</li>
@@ -116,16 +121,22 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-images pull-right text-right clearfix">
-														<ul class="clearfix ">
-															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
-															
+												<div class="col-lg-5 col-md-6 col-sm-6 pull-right col-xs-12">
+													<div class="slide multiple-items host-images">
+														<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+														<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
+
+															<!-- extra -->
+															<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
 														</ul>
 
 													</div>
@@ -165,6 +176,7 @@
 										</div>
 									</div>
 									</div>
+<!-- second / -->
 
 									<!-- third -->
 <div class="search-result-item">
@@ -185,8 +197,8 @@
 													
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-details font-semi">	
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 host-details">
+													<div class="font-semi">	
 														<ul>
 															<li class="title">
 															<i class="icon-gp-clock pull-left"></i>TODAY’S HOURS</li>
@@ -200,16 +212,22 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-images pull-right text-right clearfix">
-														<ul class="clearfix ">
-															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
-															
+												<div class="col-lg-5 col-md-6 col-sm-6 pull-right col-xs-12">
+													<div class="slide multiple-items host-images">
+														<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+														<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
+
+															<!-- extra -->
+															<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
 														</ul>
 
 													</div>
@@ -249,6 +267,8 @@
 										</div>
 									</div>
 									</div>
+<!-- third /-->
+
 
 									<!-- four -->
 <div class="search-result-item">
@@ -269,8 +289,8 @@
 													
 												</div>
 											
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-details font-semi">	
+												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 host-details">
+													<div class="font-semi">	
 														<ul>
 															<li class="title">
 															<i class="icon-gp-clock pull-left"></i>TODAY’S HOURS</li>
@@ -284,17 +304,24 @@
 														</ul>	
 													</div>
 												</div>
-												<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<div class="host-images pull-right text-right clearfix">
-														<ul class="clearfix ">
-															<li><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></li>
-															<li><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></li>
-															
+												<div class="col-lg-5 col-md-6 col-sm-6 pull-right col-xs-12">
+													<div class="slide multiple-items host-images">
+														<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+														<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
+
+															<!-- extra -->
+															<div class="item"><img src="img/thumb/photo-1.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-2.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-3.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-4.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-5.jpg" alt="photo" title="photo"></div>
+															<div class="item"><img src="img/thumb/photo-6.jpg" alt="photo" title="photo"></div>
 														</ul>
+
 													</div>
 												</div>
 											</div>
@@ -332,3 +359,4 @@
 										</div>
 									</div>
 									</div>
+<!-- four /-->
