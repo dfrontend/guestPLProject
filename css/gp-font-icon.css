@@ -185,3 +185,27 @@
 .icon-gp-social-twitter:before {
   content: "Z";
 }
+.icon-gp-information-circle:before {
+  content: "b";
+}
+.icon-gp-like:before {
+  content: "c";
+}
+.icon-gp-unlike:before {
+  content: "e";
+}
+.icon-gp-credit-card:before {
+  content: "0";
+}
+.icon-gp-user:before {
+  content: "1";
+}
+.icon-gp-log-in:before {
+  content: "2";
+}
+.icon-gp-log-out:before {
+  content: "3";
+}
+.icon-gp-cog-gear:before {
+  content: "4";
+}
