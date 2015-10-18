@@ -1,4 +1,4 @@
-<div class="module-social">
+<section class="module-social">
 <div class="module-title"><i class="icon-gp-like v-align-mid"></i> social profiles</div>
 
 <div class="social">
@@ -10,4 +10,4 @@
 					<a href="#"><i class="icon-gp-social-yelp"></i></a>
 					<a href="#"><i class="icon-gp-foursquare"></i></a>
 				</div>
-				</div>
+				</section>
