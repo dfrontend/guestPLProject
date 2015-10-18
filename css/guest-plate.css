@@ -851,21 +851,62 @@ dl.about-dtl {
 .host-intro {
 	margin-bottom: 45px;
 }
-
-
-.review-listing {
-	
+.module-listing .list-item:nth-child(odd) {
+	background-color: #f6ead6;
+}
+.module-listing .list-item {
+	padding: 20px 10px;
 }
 
+.module-listing .list-item h3,
+.module-listing .price {
+	margin: 0;
+	font-size: 16px;
+	font-family: 'montserratsemi_bold';
+}
+.module-listing .list-item small {
+	font-size: 13px;
+	display: block;
+	margin-bottom: 25px;
+}
 
+.module-listing .thumb-pic,
+.module-listing .thumb-pic img {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.module-listing .thumb-pic img {
+	width: 100%;
+}
 
-
-
-
-
-
-
-
+.module-listing .review {
+	color: #000;
+	font-size: 13px;
+	font-family: 'montserratsemi_bold';
+	text-transform: uppercase;
+	margin-top: 14px;
+}
+.module-listing .review .icon-gp-star-solid,
+.module-listing .review .icon-gp-calendar {
+	color: #dc5139;
+}
+.module-listing .review.muted * {
+	color: #bbbbbb!important;
+}
+.module-listing.review small,
+.module-listing.review .info {
+	margin-bottom: 15px;
+}
+.module-listing.review .review {
+	margin: 0;
+	text-transform: capitalize;
+	font-family: 'montserratregular';
+}
+.module-listing .stars i {
+	font-size: 14px;
+	color: #dc5139;
+}
 
 
 

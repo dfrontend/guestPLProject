@@ -5,7 +5,7 @@
 					<div class="host-profile">
 						<div class="row">
 										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-											<div class="host-pic rippler rippler rippler-img rippler-circle-mask rippler-bs-default">
+											<div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
 											<div class="inset-o-shdw"></div>
 												<img src="img/large/guest-profile-pic.jpg" alt="host" title="host">
 											</div>
