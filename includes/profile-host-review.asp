@@ -2,7 +2,7 @@
 <div class="module-title clearfix">
 	<div class="pull-left"><i class="icon-gp-chat-bubble-two v-align-mid"></i> reviews</div>
 	
-	<div class="sort-by clearfix">
+	<div class="sort-by clearfix hidden-xs">
 		<div class="pull-left"><span class="color-brick font-semi"><i class="icon-gp-sort-amount v-align-mid"></i> Sort By</span>:</div>
 		<div class="pull-left">
 			<div class="dropdown font-light">							
@@ -25,17 +25,17 @@
 <!-- item -->
 	<div class="list-item">
 		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-			<div class="inset-o-shdw"></div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
+			
 				<img src="../img/large/host-pamela-nevarez.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
-					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 						<h3>Pamela Nevarez-Fisher</h3>
 						<small>From Malibu, CA</small>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right">
 						<div class="stars">
 							<i class="icon-gp-star-solid"></i>
 							<i class="icon-gp-star-solid"></i>
@@ -60,17 +60,17 @@
 <!-- item -->
 	<div class="list-item">
 		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-			<div class="inset-o-shdw"></div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
+			
 				<img src="../img/large/host-john.png" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
-					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 						<h3>john smith</h3>
 						<small>From Santa Monica, CA</small>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right">
 						<div class="stars">
 							<i class="icon-gp-star-solid"></i>
 							<i class="icon-gp-star-solid"></i>
@@ -95,17 +95,17 @@
 <!-- item -->
 	<div class="list-item">
 		<div class="row">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-			<div class="inset-o-shdw"></div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
+			
 				<img src="../img/large/host-pamela-nevarez.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
-					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 						<h3>Pamela Nevarez-Fisher</h3>
 						<small>From Malibu, CA</small>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right">
 						<div class="stars">
 							<i class="icon-gp-star-solid"></i>
 							<i class="icon-gp-star-solid"></i>

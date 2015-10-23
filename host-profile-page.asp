@@ -30,9 +30,6 @@
 		<!-- photo section -->
 		<!-- #include file="includes/profile-host-photo.asp" -->
 
-		<!-- menu section -->
-		<!-- #include file="includes/profile-host-menu.asp" -->
-
 		<!-- review section -->
 		<!-- #include file="includes/profile-host-review.asp" -->
 

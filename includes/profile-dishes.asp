@@ -27,10 +27,11 @@
 							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="icon-gp-angle-right font-14 v-align-mid"></i>
 						</div>
 					</div>
-					<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
-						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
-					</div>
+
 				</div>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
+				<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
 			</div>
 		</div>
 	</div>
@@ -61,11 +62,12 @@
 							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="icon-gp-angle-right font-14 v-align-mid"></i>
 						</div>
 					</div>
-					<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
-						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
-					</div>
+
 				</div>
 			</div>
+								<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12 pos-relative">
+						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+					</div>
 		</div>
 	</div>
 <!-- item -->
@@ -95,11 +97,12 @@
 							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span>
 						</div>
 					</div>
-					<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
-						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
-					</div>
+
 				</div>
 			</div>
+								<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
+						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+					</div>
 		</div>
 	</div>
 <!-- item -->
@@ -130,11 +133,12 @@
 							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>0 reviews</span>
 						</div>
 					</div>
-					<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
-						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
-					</div>
+
 				</div>
 			</div>
+								<div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
+						<button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+					</div>
 		</div>
 	</div>
 <!-- item -->
