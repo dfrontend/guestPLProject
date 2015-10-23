@@ -1,12 +1,12 @@
  $(document).ready(function() {
 
 //bootstrap dropdown show selected value
-   //  $(".dropdown .dropdown-menu li a").click( function(){
+    $(".dropdown .dropdown-menu li a").click( function(){
 
-   //    $(this).parent().parent().parent().find("button .btn-value").text($(this).text());
-   //    $(this).parent().parent().parent().find("button .btn-value").val($(this).text());
+      $(this).parent().parent().parent().find("button .btn-value").text($(this).text());
+      $(this).parent().parent().parent().find("button .btn-value").val($(this).text());
 
-   // });
+   });
 
 //touch/click effects
   $(".rippler").rippler();

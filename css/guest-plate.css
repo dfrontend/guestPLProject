@@ -808,7 +808,7 @@ header.inner .navbar-nav>li>a {
 	padding: 30px 0;
 }
 
-.module-about, .module-disher, .module-menu,
+.module-about, .module-dishes, .module-menu,
 .module-reviews, .module-social, .module-photos  {
 	margin-bottom: 40px;
 }
@@ -851,11 +851,24 @@ dl.about-dtl {
 .host-intro {
 	margin-bottom: 45px;
 }
+
 .module-listing .list-item:nth-child(odd) {
 	background-color: #f6ead6;
+	border-bottom: 1px solid #e5d9c6;
 }
+
 .module-listing .list-item {
 	padding: 20px 10px;
+}
+.module-listing .list-item {
+	transition: all ease 0.6s;
+	-moz-transition: all ease 0.6s;
+	-webkit-transition: all ease 0.6s;
+}
+.module-listing .list-item:hover,
+.module-listing .list-item:nth-child(odd):hover,
+.module-listing.review .list-item:nth-child(odd):hover {
+	background-color: #f9f9f9;
 }
 
 .module-listing .list-item h3,
@@ -863,6 +876,7 @@ dl.about-dtl {
 	margin: 0;
 	font-size: 16px;
 	font-family: 'montserratsemi_bold';
+	text-transform: capitalize;
 }
 .module-listing .list-item small {
 	font-size: 13px;
@@ -907,11 +921,29 @@ dl.about-dtl {
 	font-size: 14px;
 	color: #dc5139;
 }
+.module-listing.review .list-item:nth-child(odd) {
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #e5d9c6;
+}
+.module-reviews .sort-by {
+	float: right;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+.module-reviews .sort-by .glyphicon {
+	font-size: 14px;
+	margin: 0;
+}
 
+.module-reviews .sort-by i {
+	font-size: 14px;
+}
 
-
-
-
+.module-reviews .sort-by .dropdown {
+	line-height: 120%;
+    margin-top: -2px;
+    text-transform: capitalize;
+}
 
 
 
