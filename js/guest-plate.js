@@ -2,10 +2,8 @@
 
 //bootstrap dropdown show selected value
     $(".dropdown .dropdown-menu li a").click( function(){
-
       $(this).parent().parent().parent().find("button .btn-value").text($(this).text());
       $(this).parent().parent().parent().find("button .btn-value").val($(this).text());
-
    });
 
 //touch/click effects
@@ -15,24 +13,19 @@
   $(".local-host .host-images ul").find('li:gt(5)').hide();
 
 
-// search result page hide images of index greater than 5 on desktop - show only 6
-   //$(".search-result-item .host-images div.item:gt(5)").hide();
-
-
-          // srch result item mobile images slider
+// srch result item mobile images slider
      $('.search-result-item').each(function(){
-
         $(this).find("div.item:gt(5)").hide();
      })
-
 
 
 // result page heights
     var srchheight = $('.search-results-wrapper').height();
     //console.log(srchheight);
 
-  //apply search result wrap height to map section to make them equal
+//apply search result wrap height to map section to make them equal
     $('.map-results').css('height', srchheight);
+
 
 
 // typeahead for modify search home and search result page
@@ -92,6 +85,26 @@ $('.single-item.testimo').show();
 
 
 
+      //host profile photos
+       $('.host-photos .slider-for').slick({
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+      });
+      $('.host-photos .slider-nav').slick({
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        arrows: false,
+
+      });
+
+// profile page hide photos of index greater than 5 on desktop - show only 6
+ //$(".host-photos .slider-nav").find('> div:gt(5)').addClass('hidden-lg hidden-md hidden-sm');
+
 
 
 //only mobile devices 767 and lower
@@ -117,6 +130,13 @@ $('.single-item.testimo').show();
 
 
 
+
+
     }
 
 });
+
+
+$(window).load(function(){
+
+})

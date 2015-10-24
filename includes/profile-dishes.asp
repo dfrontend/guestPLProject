@@ -24,7 +24,7 @@
 					<div class="row">
 					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 						<div class="review">
-							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="icon-gp-angle-right font-14 v-align-mid"></i>
+							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="glyphicon glyphicon-triangle-right v-align-mid"></i>
 						</div>
 					</div>
 
@@ -59,7 +59,7 @@
 					<div class="row">
 					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 						<div class="review">
-							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="icon-gp-angle-right font-14 v-align-mid"></i>
+							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="glyphicon glyphicon-triangle-right v-align-mid"></i>
 						</div>
 					</div>
 
@@ -94,7 +94,7 @@
 					<div class="row">
 					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 						<div class="review muted">
-							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span>
+							<i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>0 reviews</span>
 						</div>
 					</div>
 

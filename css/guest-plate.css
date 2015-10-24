@@ -902,6 +902,12 @@ dl.about-dtl {
 	text-transform: uppercase;
 	margin-top: 14px;
 }
+.module-listing .review .glyphicon-triangle-right {
+	font-size: 9px;
+	top: -2px;
+}
+
+
 .module-listing .review .icon-gp-star-solid,
 .module-listing .review .icon-gp-calendar {
 	color: #dc5139;
@@ -949,6 +955,53 @@ dl.about-dtl {
 	line-height: 120%;
     margin-top: -2px;
     text-transform: capitalize;
+}
+.host-photos {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.host-photos .slider-nav, 
+.host-photos .slider-for  {
+	width: 50%;
+	float: left;
+}
+.host-photos .slider-for .slick-slide {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 210px;
+}
+.host-photos .slick-slide img,
+.host-photos .slick-slide {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.host-photos .slider-nav .hidden-lg.hidden-md.hidden-sm.slick-slide {
+	display: none;
+}
+.host-photos .slider-nav .slick-slide {
+	width: 92px!important;
+	height: 90px;
+	margin: 0 0 20px 20px;
+}
+.host-photos .slider-nav .slick-slide img {
+	width: 100px;
+	height: 100px;
+}
+.host-photos .slider-nav .slick-list {
+	padding: 0!important;
+}
+
+.host-photos .slider-nav .slick-track {
+	transform: none!important;
+	width: 100%!important;
+	height: 211px;
+	overflow: hidden;
 }
 
 
@@ -1297,6 +1350,9 @@ footer .social {
 	.host-numbers h1, .host-intro .host-numbers small, .host-intro .host-numbers span {
 		margin-bottom: 7px;
 	}
+	.host-intro .host-numbers span {
+		width: 20%;
+	}
 	.module-listing .list-item {
 		padding: 20px 10px 10px 10px;
 	}
@@ -1335,6 +1391,9 @@ footer .social {
 		margin-top: 25px;
 
 	}
+	.host-photos .slider-nav .hidden-lg.hidden-md.hidden-sm.slick-slide {
+		display: block;
+	}
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;
@@ -1366,6 +1425,9 @@ footer .social {
 	.host-images > ul {
 		width: 60%;
 		float: right;
+	}
+	.host-intro .host-numbers span {
+		width: 10%;
 	}
  }
 
