@@ -86,21 +86,40 @@ $('.single-item.testimo').show();
 
 
       //host profile photos
-       $('.host-photos .slider-for').slick({
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav'
-      });
-      $('.host-photos .slider-nav').slick({
-        slidesToScroll: 1,
-        asNavFor: '.slider-for',
-        dots: false,
-        centerMode: true,
-        focusOnSelect: true,
-        arrows: false,
+      //  $('.host-photos .slider-for').slick({
+      //   slidesToScroll: 1,
+      //   arrows: false,
+      //   fade: true,
+      //   asNavFor: '.slider-nav'
+      // });
+      // $('.host-photos .slider-nav').slick({
+      //   slidesToScroll: 1,
+      //   asNavFor: '.slider-for',
+      //   dots: false,
+      //   centerMode: true,
+      //   focusOnSelect: true,
+      //   arrows: false,
 
-      });
+      // });
+
+
+ //host profile photos
+     $('.host-photos .slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+    $('.host-photos .slider-nav').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: false,
+      centerMode: true,
+      focusOnSelect: true,
+      arrows: true,
+    });
 
 // profile page hide photos of index greater than 5 on desktop - show only 6
  //$(".host-photos .slider-nav").find('> div:gt(5)').addClass('hidden-lg hidden-md hidden-sm');
@@ -127,7 +146,6 @@ $('.single-item.testimo').show();
               arrows: true,
             
       });
-
 
 
 

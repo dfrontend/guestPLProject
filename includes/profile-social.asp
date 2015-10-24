@@ -1,4 +1,4 @@
-<section class="module-social">
+<section class="module-social hidden-xs">
 <div class="module-title"><i class="icon-gp-like v-align-mid"></i> social profiles</div>
 
 <div class="social">
