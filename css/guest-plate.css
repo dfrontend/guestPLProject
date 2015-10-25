@@ -984,6 +984,7 @@ dl.about-dtl {
 }
 .host-photos .slider-nav .slick-slide img {
 	width: 90%;
+	margin-bottom: 10px;
 }
 .host-photos .slider-for  {
 	margin-bottom: 30px;
@@ -1433,7 +1434,7 @@ footer .social {
 	.host-photos .slider-for {
 	    margin-bottom: 15px;
 	}
-	.host-photos .mobile-wrap {
+	.host-photos .thumbs-pic-wrap {
 		background-color: #f6ead6;
 		padding: 10px 0;
 	}
@@ -1447,7 +1448,7 @@ footer .social {
 	.about-dtl dl {
 	    font-size: 12px;
 	}
-	/*.host-photos .slider-nav, .host-photos .slider-for {
+	.host-photos .slider-nav, .host-photos .slider-for {
 		width: 100%;
 	}
 	.host-photos .slider-nav .slick-slide {
@@ -1456,15 +1457,17 @@ footer .social {
 	    margin: 0;
 	}
 	.host-photos .slider-nav .slick-slide img {
-	    width: initial;
-	    height: initial;
-	}*/
+	    margin-bottom: 0;
+	}
 	/*.host-photos .slider-nav .slick-track {
 	    transform: translate3d(-520px, 0px, 0px)!important;
 	    width: auto!important;
 	    height: auto;
 	    overflow: inherit;
 	}*/
+
+
+
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;
@@ -1599,6 +1602,7 @@ footer .social {
 		height: 195px;
 	}*/
 
+
 	footer {
 	    padding: 28px 0;
 	}
@@ -1635,22 +1639,25 @@ footer .social {
 	}
  }
 
- @media (min-width:1024px) and (max-width:1025px) {
- 	/*.host-photos .slider-nav .slick-slide {
-    	width: 82px!important;
-    	height: 86px;
+ @media (min-width:768px)  {
+	.large-pic-wrap,
+ 	.thumbs-pic-wrap {
+ 		width: 50%;
+ 		float: left;
+ 		margin: 0;
+ 	}
+ 	.host-photos .slider-for .slick-slide img {
+ 		width: 100%;
+ 		margin: 0;
+ 	}
+ 	.host-photos .slick-arrow {
+ 		visibility: hidden;
+ 	}
+ 	/*.host-photos .slider-nav .slick-list {
+ 		height: 220px;
+ 	}*/
+	.host-photos .slider-nav .slick-slide:gt(5) {
+		display: none;
 	}
-	.host-photos .slider-nav .slick-slide img {
-	    width: 100%;
-	    height: 87px;
-	}
-	.host-photos .slider-for .slick-slide {
-		height: 194px;
-	}
-	.host-photos .slider-nav .slick-track {
-		height: 197px;
-	}
-	.module-about {
-    	min-height: 254px;
-	}*/
+
  }

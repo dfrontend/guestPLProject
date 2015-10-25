@@ -85,41 +85,7 @@ $('.single-item.testimo').show();
 
 
 
-      //host profile photos
-      //  $('.host-photos .slider-for').slick({
-      //   slidesToScroll: 1,
-      //   arrows: false,
-      //   fade: true,
-      //   asNavFor: '.slider-nav'
-      // });
-      // $('.host-photos .slider-nav').slick({
-      //   slidesToScroll: 1,
-      //   asNavFor: '.slider-for',
-      //   dots: false,
-      //   centerMode: true,
-      //   focusOnSelect: true,
-      //   arrows: false,
 
-      // });
-
-
- //host profile photos
-     $('.host-photos .slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-    });
-    $('.host-photos .slider-nav').slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
-      dots: false,
-      centerMode: true,
-      focusOnSelect: true,
-      arrows: true,
-    });
 
 // profile page hide photos of index greater than 5 on desktop - show only 6
  //$(".host-photos .slider-nav").find('> div:gt(5)').addClass('hidden-lg hidden-md hidden-sm');
@@ -128,6 +94,33 @@ $('.single-item.testimo').show();
 
 //only mobile devices 767 and lower
     var wWidth = $(window).width();
+
+if( wWidth >= 768) {
+
+  //alert('desktiop');
+
+   //host profile photos
+     $('.host-photos .slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+      $('.host-photos .slider-nav').slick({
+      rows: 2,
+      slidesPerRow: 1,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: false,
+      centerMode: true,
+      focusOnSelect: true,
+      arrows: false
+    });
+}
+
+
 
     if( wWidth <= 767) {
        //alert('767');
@@ -147,14 +140,28 @@ $('.single-item.testimo').show();
             
       });
 
+ //host profile photos
+     $('.host-photos .slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+          $('.host-photos .slider-nav').slick({
+          rows: 1,
+          slidesPerRow: 1,
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          asNavFor: '.slider-for',
+          dots: false,
+          centerMode: true,
+          focusOnSelect: true,
+          arrows: true
+        });
 
 
 
     }
 
 });
-
-
-$(window).load(function(){
-
-})

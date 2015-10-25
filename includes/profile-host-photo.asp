@@ -4,7 +4,7 @@
 
 <!-- gallery -->
 <div class="host-photos clearfix">
-<div class="row">
+<div class="row large-pic-wrap">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="slider slider-for pos-relative">
 			<div><img src="img/large/large-photo-1.jpg" alt="" data-item="1"></div>
@@ -22,7 +22,7 @@
 		</div>
 	</div>
 </div>
-<div class="row mobile-wrap">
+<div class="row thumbs-pic-wrap">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="slider slider-nav">
 			<div><img src="img/thumb/photo-1.jpg" alt="" title="1"></div>
