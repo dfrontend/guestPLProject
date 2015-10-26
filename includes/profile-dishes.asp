@@ -5,7 +5,7 @@
 	<div class="list-item">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-				<img src="../img/thumb/photo-7.jpg" alt="" title="">
+				<img src="img/thumb/photo-7.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
@@ -40,7 +40,7 @@
 	<div class="list-item">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-				<img src="../img/thumb/photo-8.jpg" alt="" title="">
+				<img src="img/thumb/photo-8.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
@@ -75,7 +75,7 @@
 	<div class="list-item">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-				<img src="../img/thumb/photo-9.jpg" alt="" title="">
+				<img src="img/thumb/photo-9.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
@@ -110,7 +110,7 @@
 	<div class="list-item">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
-				<img src="../img/thumb/photo-7.jpg" alt="" title="">
+				<img src="img/thumb/photo-7.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
