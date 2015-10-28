@@ -27,7 +27,7 @@
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
 			
-				<img src="../img/large/host-pamela-nevarez.jpg" alt="" title="">
+				<img src="img/large/host-pamela-nevarez.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
@@ -62,7 +62,7 @@
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
 			
-				<img src="../img/large/host-john.png" alt="" title="">
+				<img src="img/large/host-john.png" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">
@@ -97,7 +97,7 @@
 		<div class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
 			
-				<img src="../img/large/host-pamela-nevarez.jpg" alt="" title="">
+				<img src="img/large/host-pamela-nevarez.jpg" alt="" title="">
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
 				<div class="row">

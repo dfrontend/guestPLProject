@@ -84,46 +84,41 @@ $('.single-item.testimo').slick({
 $('.single-item.testimo').show();
 
 
+//host photo heights
+ var hostthumbht = $('.host-photos.desktop .thumbs-pic-wrap').height();
 
-
-
-// profile page hide photos of index greater than 5 on desktop - show only 6
- //$(".host-photos .slider-nav").find('> div:gt(5)').addClass('hidden-lg hidden-md hidden-sm');
-
-
+$('.host-photos.desktop .large-pic-wrap .item').css('height', hostthumbht);
 
 //only mobile devices 767 and lower
-    var wWidth = $(window).width();
+var wWidth = $(window).width();
 
+var hostthumbht = $('.host-photos.desktop .thumbs-pic-wrap').height();
+
+
+
+//more than or equal to  768
 if( wWidth >= 768) {
 
   //alert('desktiop');
 
-   //host profile photos
-     $('.host-photos .slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-    });
-      $('.host-photos .slider-nav').slick({
-      rows: 2,
-      slidesPerRow: 1,
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
-      dots: false,
-      centerMode: true,
-      focusOnSelect: true,
-      arrows: false
-    });
+// host profile item host photos show only 6 thumbs 
+$(".host-photos.desktop .slider-for div.item:gt(0), .host-photos .slider-nav div.item:gt(5)").hide();
+ 
+//unslick host photos on desktop
+$('.host-photos.desktop .slider-for').slick('unslick');
+$('.host-photos.desktop .slider-nav').slick('unslick');
+
+
+$('.module-about .about-dtl').css('height','hostthumbht');
+
 }
 
 
-
+//mobile tablets
     if( wWidth <= 767) {
        //alert('767');
+
+       $('.desktop').removeClass('desktop');
 
        // hide images of index greater than 1 on mobile - show only 2
        $(".local-host .host-images ul").find('li:gt(1)').hide();
@@ -140,14 +135,16 @@ if( wWidth >= 768) {
             
       });
 
- //host profile photos
-     $('.host-photos .slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-    });
+
+
+       //host profile photos
+           $('.host-photos .slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+          });
           $('.host-photos .slider-nav').slick({
           rows: 1,
           slidesPerRow: 1,
@@ -164,4 +161,16 @@ if( wWidth >= 768) {
 
     }
 
+
+
+
+
 });
+
+ $(window).load(function() {
+        
+      $('.host-photos.desktop .large-pic-wrap .item').css('height', hostthumbht);
+
+      
+
+    });

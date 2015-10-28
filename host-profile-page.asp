@@ -30,11 +30,11 @@
 		<!-- photo section -->
 		<!-- #include file="includes/profile-host-photo.asp" -->
 
-		<!-- review section -->
-		<!-- #include file="includes/profile-host-review.asp" -->
-
 		<!-- dishes section -->
 		<!-- #include file="includes/profile-dishes.asp" -->
+
+		<!-- review section -->
+		<!-- #include file="includes/profile-host-review.asp" -->
 
 		</div>
 
