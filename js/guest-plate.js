@@ -91,6 +91,7 @@ $(document).ready(function () {
 
 
 
+
 //only mobile devices 767 and lower
     var wWidth = $(window).width();
 
@@ -117,7 +118,7 @@ $(document).ready(function () {
     if (wWidth <= 767) {
         //alert('767');
 
-        $('.desktop').removeClass('desktop');
+        $('.host-photos.desktop').removeClass('desktop');
 
         // hide images of index greater than 1 on mobile - show only 2
         $(".local-host .host-images ul").find('li:gt(1)').hide();
@@ -161,6 +162,7 @@ $(document).ready(function () {
 $(window).load(function () {
 //host photo large image heights for desktop
     myfunc_name();
+
 });
 
 $(window).on("orientationchange", function (event) {

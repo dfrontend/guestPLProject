@@ -811,7 +811,7 @@ header.inner .navbar-nav>li>a {
 	margin-bottom: 40px;
 }
 .module-about {
-	min-height: 250px;
+	min-height: 268px;
 }
 .module-title {
 	font-size: 15px;
@@ -1626,9 +1626,9 @@ footer .social {
     	width: 95px!important;
     	height: 87px;
 	}*/
-	/*.module-about {
+	.module-about {
 		min-height: inherit;
-	}*/
+	}
 
 	/*.host-photos .slider-for .slick-slide,
 	.host-photos .slider-nav .slick-track {
