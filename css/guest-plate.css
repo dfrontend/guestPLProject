@@ -810,9 +810,9 @@ header.inner .navbar-nav>li>a {
 .module-reviews, .module-social, .module-photos  {
 	margin-bottom: 40px;
 }
-/*.module-about {
-	min-height: 268px;
-}*/
+.module-about {
+	min-height: 250px;
+}
 .module-title {
 	font-size: 15px;
 	line-height: 100%;
@@ -1454,7 +1454,9 @@ footer .social {
 	/*.host-photos .slider-nav .hidden-lg.hidden-md.hidden-sm.slick-slide {
 		display: block;
 	}*/
-
+	.module-about {
+		min-height: inherit;
+	}
 	.host-photos .slider-for .slick-slide img {
 	    width: 100%;
 	    margin: 0;
@@ -1668,10 +1670,4 @@ footer .social {
 	.search-results-wrapper .col-right {
 		background-color: #EFEFEF;
 	}
- }
-
- @media (min-width:768px)  {
-
-
-
  }
