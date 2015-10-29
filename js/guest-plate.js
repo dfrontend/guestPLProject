@@ -16,7 +16,7 @@
 // srch result item mobile images slider
      $('.search-result-item').each(function(){
         $(this).find("div.item:gt(5)").hide();
-     })
+     });
 
 
 // result page heights
@@ -84,16 +84,10 @@ $('.single-item.testimo').slick({
 $('.single-item.testimo').show();
 
 
-//host photo heights
- var hostthumbht = $('.host-photos.desktop .thumbs-pic-wrap').height();
 
-$('.host-photos.desktop .large-pic-wrap .item').css('height', hostthumbht);
 
 //only mobile devices 767 and lower
 var wWidth = $(window).width();
-
-var hostthumbht = $('.host-photos.desktop .thumbs-pic-wrap').height();
-
 
 
 //more than or equal to  768
@@ -131,8 +125,7 @@ $('.module-about .about-dtl').css('height','hostthumbht');
               slidesToShow: 5,
               slidesToScroll: 5,
               dots: false,
-              arrows: true,
-            
+              arrows: true
       });
 
 
@@ -156,21 +149,13 @@ $('.module-about .about-dtl').css('height','hostthumbht');
           focusOnSelect: true,
           arrows: true
         });
-
-
-
     }
-
-
-
-
 
 });
 
  $(window).load(function() {
-        
-      $('.host-photos.desktop .large-pic-wrap .item').css('height', hostthumbht);
+//host photo large image heights for desktop
+     var hostthumbht = $('.host-photos.desktop .thumbs-pic-wrap').height();
+     $('.host-photos.desktop .large-pic-wrap .item').css('height', hostthumbht);
+});
 
-      
-
-    });
