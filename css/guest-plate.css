@@ -962,20 +962,7 @@ dl.about-dtl {
 	padding-top: 20px;
 	margin-bottom: 20px;
 }
-/*.host-photos .slider-nav, 
-.host-photos .slider-for  {
-	width: 50%;
-	float: left;
-}*/
-/*.host-photos .slider-for .slick-slide {
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 227px;
-}*/
+
 .host-photos .slick-slide img,
 .host-photos .slick-slide {
 	border-radius: 3px;
@@ -993,35 +980,11 @@ dl.about-dtl {
 	width: 70%;
 	margin: 0 auto;
 }
-/*.host-photos .slider-nav .slick-slide img {
-	height: 100px;
-}*/
+
 .host-photos .slider-nav.slick-slider {
     width: 90%;
     margin: 0 auto;
 }
-/*.host-photos .slider-nav .hidden-lg.hidden-md.hidden-sm.slick-slide {
-	display: none;
-}*/
-/*.host-photos .slider-nav .slick-slide {
-	width: 103px!important;
-	height: 103px;
-	margin: 0 0 20px 20px;
-}
-.host-photos .slider-nav .slick-slide img {
-	width: 100%;
-	height: 100%;
-}
-.host-photos .slider-nav .slick-list {
-	padding: 0!important;
-}
-
-.host-photos .slider-nav .slick-track {
-	transform: none!important;
-	width: 100%!important;
-	height: 229px;
-	overflow: hidden;
-}*/
 
 	.host-photos.desktop .large-pic-wrap {
  		width: 54%;
@@ -1053,7 +1016,9 @@ dl.about-dtl {
  		width: 29%;
  	}
 
-
+.profile-pg-wrapper {
+	padding-bottom: 100px;
+}
 
 
 /*footer*/
@@ -1451,9 +1416,6 @@ footer .social {
 	    margin-bottom: 23px;
 	}
 
-	/*.host-photos .slider-nav .hidden-lg.hidden-md.hidden-sm.slick-slide {
-		display: block;
-	}*/
 	.module-about {
 		min-height: inherit;
 	}
@@ -1489,18 +1451,14 @@ footer .social {
 	.host-photos .slider-nav .slick-slide img {
 	    margin-bottom: 0;
 	}
-	/*.host-photos .slider-nav .slick-track {
-	    transform: translate3d(-520px, 0px, 0px)!important;
-	    width: auto!important;
-	    height: auto;
-	    overflow: inherit;
-	}*/
 
 	.host-photos .thumbs-pic-wrap {
 		margin-left: -14px;
 		margin-right: -14px;
 	}
-
+	.profile-pg-wrapper {
+		padding-bottom: 50px;
+	}
 
 	footer, footer a, footer a:hover {
   		font-size: 14px;
@@ -1622,19 +1580,12 @@ footer .social {
     	width: 42.8%;
 	}
 
-	/*.host-photos .slider-nav .slick-slide {
-    	width: 95px!important;
-    	height: 87px;
-	}*/
 	.module-about {
 		min-height: inherit;
 	}
-
-	/*.host-photos .slider-for .slick-slide,
-	.host-photos .slider-nav .slick-track {
-		height: 195px;
-	}*/
-
+	.profile-pg-wrapper {
+		padding-bottom: 50px;
+	}
 
 	footer {
 	    padding: 28px 0;
@@ -1671,3 +1622,10 @@ footer .social {
 		background-color: #EFEFEF;
 	}
  }
+
+/*only ipad landscape*/
+@media (min-width: 1024px) and (max-width: 1025px) { 
+	.module-about {
+    	min-height: 234px;
+	}
+}

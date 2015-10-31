@@ -36,6 +36,9 @@
 		<!-- review section -->
 		<!-- #include file="includes/profile-host-review.asp" -->
 
+		<!-- favorites section -->
+		<!-- #include file="includes/profile-favorites.asp" -->
+
 		</div>
 
 		<!-- right -->

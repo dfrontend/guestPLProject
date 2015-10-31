@@ -209,3 +209,15 @@
 .icon-gp-cog-gear:before {
   content: "4";
 }
+.icon-gp-caret-left:before {
+  content: "5";
+}
+.icon-gp-caret-right:before {
+  content: "6";
+}
+.icon-gp-caret-down-two:before {
+  content: "7";
+}
+.icon-gp-caret-up-two:before {
+  content: "8";
+}
