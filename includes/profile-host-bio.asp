@@ -6,8 +6,9 @@
 						<div class="row">
 										<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 											<div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
-											<div class="inset-o-shdw"></div>
-												<img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host">
+											<!-- <div class="inset-o-shdw"></div> -->
+												<!-- <img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host"> -->
+												<img src="img/large/blank-user-large.png" alt="host" title="host">
 											</div>
 										</div>
 										<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">

@@ -838,8 +838,8 @@ header.inner .navbar-nav>li>a {
 	margin-bottom: 20px;
 }
 dl.about-dtl {
-
-	padding-top: 20px;
+	margin: 0;
+	margin-top: 20px;
 }
 .about-dtl dt {
 	font-size: 16px;

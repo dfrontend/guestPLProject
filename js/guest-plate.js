@@ -3,6 +3,8 @@ function myfunc_name() {
     //do stuff here
     var hostthumbht = $('.host-photos.desktop .thumbs-pic-wrap').height();
     $('.host-photos.desktop .large-pic-wrap .item').css('height', hostthumbht);
+
+    $('.module-about .about-dtl').css('min-height', hostthumbht);
 }
 
 $(document).ready(function () {
@@ -109,7 +111,7 @@ $(document).ready(function () {
         $('.host-photos.desktop .slider-nav').slick('unslick');
 
 
-        $('.module-about .about-dtl').css('height', 'hostthumbht');
+        //$('.module-about .about-dtl').css('height', 'hostthumbht');
 
     }
 

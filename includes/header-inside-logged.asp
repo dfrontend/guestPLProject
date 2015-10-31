@@ -28,7 +28,7 @@
         </div> -->
 
         <!-- logged in -->
-          <div class="guest-logged pull-right">
+          <div class="guest-logged pull-right hidden-xs">
           <div class="guest-loved pull-left">
             <i class="icon-gp-love-heart-fill"></i>
             </div>
