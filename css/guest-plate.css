@@ -555,7 +555,7 @@ header .navbar-nav>li.active:hover {
 }
 
 .host-numbers span {
-	width: 30%;
+	width: 20px;
 	margin: 0 auto;	
 	height: 3px;
 	background: #dc5139;
@@ -787,7 +787,7 @@ header.inner .navbar-nav>li>a {
     margin: 5px 0 3px 0;
 }
 .search-result-item .host-numbers span {
-    width: 25%;
+    /*width: 20px;*/
     height: 2px;
 }
 .search-result-item .host-numbers .btn {
@@ -807,7 +807,8 @@ header.inner .navbar-nav>li>a {
 }
 
 .module-about, .module-dishes, .module-menu,
-.module-reviews, .module-social, .module-photos  {
+.module-reviews, .module-social, .module-photos,
+.module-favorites  {
 	margin-bottom: 40px;
 }
 .module-about {
@@ -1019,6 +1020,122 @@ dl.about-dtl {
 .profile-pg-wrapper {
 	padding-bottom: 100px;
 }
+.guest-logged .guest-loved {
+	    padding: 20px 20px 0 0;
+}
+.guest-logged .dish-count {
+	margin: 9px 20px 0 0;
+}
+.guest-logged .guest-loved i {
+	font-size: 24px;
+	color: #fff;
+}
+.guest-logged .dish-count i {
+	font-size: 40px;
+	color: #fff;
+}
+.guest-logged .dish-count span {
+	position: absolute;
+	top: 18px; 
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #dc5139;
+	font-size: 12px;
+}
+.guest-logged .logged-info {
+	margin: 11px 20px 0 10px;
+	cursor: pointer;
+}
+
+.guest-logged .guest-pic {
+	width: 46px;
+	height: 46px;
+	margin-right: 10px;
+}
+
+.guest-logged .guest-pic img {
+	width: 100%;
+	display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.guest-logged .guest-name {
+	font-size: 14px;
+	color: #fff;
+	padding-top: 10px;
+
+}
+
+.logged-info .dropdown-menu {
+	padding: 0;
+	min-width: 246px;
+	right: -15px;
+	border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.logged-info .dropdown-menu:after, .logged-info .dropdown-menu:before {
+	bottom: 100%;
+	left: 88%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.logged-info .dropdown-menu:after {
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.logged-info .dropdown-menu:before {
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.logged-info .dropdown-menu>li>a {
+	padding: 0 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: 'montserratsemi_bold';
+	color: #777777;
+	border-bottom: 1px solid #cccccc;
+}
+.logged-info .dropdown-menu li a>span {
+	padding: 13px 0 10px 0;
+	display: inline-block;
+}
+.logged-info .dropdown-menu a i {
+	font-size: 16px;
+	margin: 13px 0 0 0;
+}
+.guest-logged .logout a,
+.guest-logged .logout a:hover,
+.guest-logged .logout a:focus {
+	background-color: #f3f3f3;
+	border-bottom: none;
+}
+.guest-logged .logged-info .dropdown-menu a:hover,
+.guest-logged .logged-info .dropdown-menu a:focus {
+	background-color: #dc5139;
+	color: #fff;
+}
+.guest-logged .logout a {
+	-webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
 
 
 /*footer*/
@@ -1362,9 +1479,9 @@ footer .social {
 	.host-numbers h1, .host-intro .host-numbers small, .host-intro .host-numbers span {
 		margin-bottom: 7px;
 	}
-	.host-intro .host-numbers span {
-		width: 20%;
-	}
+	/*.host-intro .host-numbers span {
+		width: 20px;
+	}*/
 	.module-listing .list-item {
 		padding: 20px 10px 10px 10px;
 	}
@@ -1412,7 +1529,8 @@ footer .social {
 	.host-intro,
 	.module-about, .module-dishes, 
 	.module-menu, .module-reviews, 
-	.module-social, .module-photos {
+	.module-social, .module-photos,
+	.module-favorites {
 	    margin-bottom: 23px;
 	}
 
@@ -1492,7 +1610,7 @@ footer .social {
 		float: right;
 	}
 	.host-intro .host-numbers span {
-		width: 10%;
+		width: 15px;
 	}
  }
 
@@ -1585,6 +1703,10 @@ footer .social {
 	}
 	.profile-pg-wrapper {
 		padding-bottom: 50px;
+	}
+	.module-reviews .sort-by .dropdown-menu {
+		left: initial;
+    	right: 0;
 	}
 
 	footer {

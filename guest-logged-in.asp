@@ -4,14 +4,14 @@
 	<!-- head - includes/head.asp -->
 	<!-- #include file="includes/head.asp" -->
 
-	<title>Guest Plate: Host Profile</title>
+	<title>Guest Plate: Host Profile logged in</title>
 </head>
 
 <body>
 <section class="page-wrapper">
 
-<!-- header inside - includes/header-inside.asp -->
-<!-- #include file="includes/header-inside.asp" -->
+<!-- header inside - includes/header-inside-logged.asp -->
+<!-- #include file="includes/header-inside-logged.asp" -->
 
 <section class="modify-search bg-skin">
 	<!-- modify search widget - includes/modify-search-results.asp -->
