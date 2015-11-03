@@ -4,7 +4,7 @@
 	<!-- head - includes/head.asp -->
 	<!-- #include file="includes/head.asp" -->
 
-	<title>Guest Plate: Host Profile</title>
+	<title>Guest Plate: Guest Profile</title>
 </head>
 
 <body>
@@ -20,8 +20,8 @@
 
 <section class="profile-pg-wrapper">
 
-<!-- host info - includes/profile-host-bio.asp-->
-<!-- #include file="includes/profile-host-bio.asp" -->
+<!-- profile bio - includes/profile-guest-bio.asp-->
+<!-- #include file="includes/profile-guest-bio.asp" -->
 
 <!-- host gallery and deals -->
 <div class="container">
@@ -38,21 +38,19 @@
 		<!-- review section - includes/profile-host-review.asp-->
 		<!-- #include file="includes/profile-host-review.asp" -->
 
+		<!-- favorites section - includes/profile-favorites.asp-->
+		<!-- #include file="includes/profile-favorites.asp" -->
+
 		</div>
 
 		<!-- right -->
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
-
-		<!-- deals section - includes/profile-deals.asp-->
-		<!-- #include file="includes/profile-deals.asp" -->
 		
-		<!-- hours section - includes/profile-hours.asp-->
-		<!-- #include file="includes/profile-hours.asp" -->
+		<!-- about section - includes/profile-about.asp-->
+		<!-- #include file="includes/profile-about.asp" -->
 
-		<!-- about section - includes/profile-guest-about.asp-->
-		<!-- #include file="includes/profile-guest-about.asp" -->
-
+		<!-- social section - includes/profile-social.asp-->
+		<!-- #include file="includes/profile-social.asp" -->
 
 		</div>
 		</div>
@@ -68,14 +66,6 @@
 </section>
 <!-- js scripts - includes/scripts.asp-->
 <!-- #include file="includes/scripts.asp" -->
-
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		$(".module-dishes .module-title").html("<i class='icon-gp-list-bullet v-align-mid'></i> Menu");
-	})
-</script>
-
 </body>
 
 </html>

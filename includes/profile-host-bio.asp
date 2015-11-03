@@ -65,9 +65,9 @@
 						<small>hosted</small>
 						<span></span>
 					</div>
-					<div class="col-lg-9 col-md-6 col-sm-6 col-xs-12 text-right">
+					<!-- <div class="col-lg-9 col-md-6 col-sm-6 col-xs-12 text-right">
 						<button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">Order Now</button>
-					</div>
+					</div> -->
 
 				</div>
 			</div>

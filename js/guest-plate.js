@@ -7,6 +7,7 @@ function myfunc_name() {
     $('.module-about .about-dtl').css('min-height', hostthumbht);
 }
 
+
 $(document).ready(function () {
 
 //bootstrap dropdown show selected value
@@ -15,7 +16,7 @@ $(document).ready(function () {
         $(this).parent().parent().parent().find("button .btn-value").val($(this).text());
     });
 
-//touch/click effects
+//buttons touch/click effects
     $(".rippler").rippler();
 
 // home page /search result page item hide images of index greater than 5 on desktop - show only 6
@@ -93,11 +94,10 @@ $(document).ready(function () {
 
 
 
-
 //only mobile devices 767 and lower
     var wWidth = $(window).width();
 
-//more than or equal to  768
+//more than or equal to 768 - desktop to ipad
     if (wWidth >= 768) {
         // host profile desktop ht
         myfunc_name();
@@ -106,17 +106,10 @@ $(document).ready(function () {
         // host profile item host photos show only 6 thumbs
         $(".host-photos.desktop .slider-for div.item:gt(0), .host-photos .slider-nav div.item:gt(5)").hide();
 
-        //unslick host photos on desktop
-        $('.host-photos.desktop .slider-for').slick('unslick');
-        $('.host-photos.desktop .slider-nav').slick('unslick');
-
-
-        //$('.module-about .about-dtl').css('height', 'hostthumbht');
-
     }
 
 
-//mobile tablets
+//mobile and tablets
     if (wWidth <= 767) {
         //alert('767');
 
