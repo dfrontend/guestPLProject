@@ -1,4 +1,4 @@
-<section class="module-about">
+<section class="module-about host">
 <div class="module-title"><i class="icon-gp-information-circle v-align-mid"></i> About Brad</div>
 
 <dl class="about-dtl">

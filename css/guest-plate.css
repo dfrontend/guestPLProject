@@ -811,9 +811,9 @@ header.inner .navbar-nav>li>a {
 .module-favorites, .module-hours, .module-deals  {
 	margin-bottom: 40px;
 }
-.module-about {
+/*.module-about {
 	min-height: 268px;
-}
+}*/
 .module-title {
 	font-size: 15px;
 	line-height: 100%;
@@ -834,7 +834,9 @@ header.inner .navbar-nav>li>a {
 .social a:hover {
 	opacity: .7;
 }
-.module-social .module-title {
+.module-social .module-title,
+.module-about.guest .module-title,
+.module-deals .module-title {
 	margin-bottom: 20px;
 }
 dl.about-dtl {
@@ -998,7 +1000,7 @@ dl.about-dtl {
  		margin: 0
  	}
 
- 	.host-photos.desktop .slider-for  {
+ 	.host-photos.desktop .slider-for {
  		margin: 0;
  		max-height: 220px;
  		overflow: hidden;
@@ -1145,14 +1147,49 @@ dl.about-dtl {
 .module-hours ul li {
 	padding: 10px;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 13px;
 }
 .module-hours li:nth-child(odd) {
 	background-color: #f3f3f3;
 	border-bottom: 1px solid #e5d9c6;
 }
 
+.module-about.guest p {
+	font-size: 13px;
+}
 
+.module-deals .hot-deal {
+	font-size: 16px;
+	color: #30a058;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.module-deals ul {
+	padding-left: 3px;
+	list-style-position: inside;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.module-deals a {
+	font-size: 13px;
+	color: #000;
+	margin-bottom: 20px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.module-deals a i {
+	font-size: 9px;
+}
+
+.module-deals .btn {
+	width: 100%;
+	font-size: 18px;
+	color: #fff;
+	padding: 19px;
+	background-color: #30a058;
+	text-transform: capitalize;
+}
 
 
 
@@ -1769,7 +1806,7 @@ footer .social {
 
 /*only ipad landscape*/
 @media (min-width: 1024px) and (max-width: 1025px) { 
-	.module-about {
+	/*.module-about {
     	min-height: 234px;
-	}
+	}*/
 }
