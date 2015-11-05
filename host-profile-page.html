@@ -1,0 +1,711 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- head - includes/head.asp -->
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="ico/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="ico/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="ico/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="ico/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="ico/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="ico/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="ico/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+
+    <!-- css files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/rippler.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/gp-font-icon.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/guest-plate.css">
+
+
+    <title>Guest Plate: Host Profile</title>
+</head>
+
+<body>
+<section class="page-wrapper">
+
+<!-- header inside - includes/header-inside.asp -->
+<header class="inner clearfix">
+<nav class="navbar top">
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- mobile logout btn -->
+          <a href="#" class="pull-right rippler rippler-default log-btns visible-xs-block" title="logout">
+            <i class="icon icon-gp-login"></i>
+            <i class="icon icon-gp-logout hide"></i>
+          </a>
+          <!-- logo -->
+          <a class="navbar-brand" href="index.asp">
+            <img src="img/logo-white.png" alt="Guest Plate" title="Guest Plate">
+          </a>
+
+        </div>
+
+<!-- top nav -->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active rippler rippler-default"><a href="#" class="btn">Become a host</a></li>
+            <li class="rippler rippler-default"><a href="http://www.google.com/" target="_blank">Sign Up</a></li>
+            <li class="rippler rippler-default hidden-xs"><a href="#">Log In</a></li>
+          </ul>
+        </div>
+</nav>
+</header>
+
+<section class="modify-search bg-skin">
+    <!-- modify search widget - includes/modify-search-results.asp -->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+            <div class="search-module clearfix">
+                    <form class="form-inline">
+                    
+                        <div class="wrap-1 form-group pos-relative col-xs-12">
+
+                        <i class="icon-gp-location"></i>
+                        <input type="text" class="form-control width-100pr typeahead truncate" id="location" placeholder="Location">
+                        <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                            <!-- <div class="dropdown">
+                            
+                            <i class="icon-gp-location"></i>
+                                <button id="category" class="width-100pr clearfix text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="btn-value display-block truncate">Location</span> 
+                                <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+                                </button>
+
+                                <ul class="dropdown-menu width-100pr" aria-labelled="category">
+                                    <li><a href="javascript:void(0);">Location 1</a></li>
+                                    <li><a href="javascript:void(0);">Location 2</a></li>
+                                    <li><a href="javascript:void(0);">Location long text</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="wrap-2 form-group pos-relative hidden-xs">
+                            <i class="icon-gp-search"></i>
+                            <input type="text" class="form-control width-100pr typeahead truncate" id="location" placeholder="Search for Host, Cuisine or Dish">
+                        </div>
+
+                        <div class="wrap-3 last additional-opt pull-right hidden-xs">
+                            <a href="#" class="color-black"><span class="glyphicon glyphicon-triangle-right"></span> Additional Options</a>
+                        </div>
+
+                        <div class="wrap-4 form-group col-lg-2 col-md-2 col-sm-1 col-xs-12 pull-right hidden-xs">
+                            <button type="button" onclick="window.open('search-results.asp','_self')" class="btn color-white width-100pr rippler rippler-default text-center">
+                            <span class="hidden-sm hidden-xs">Search</span> 
+                            <span class="icon-gp-search visible-sm visible-xs"></span></button>
+                        </div>
+</form>
+
+                    
+
+
+                </div>
+
+</div>
+
+                    
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="profile-pg-wrapper">
+
+<!-- host info - includes/profile-host-bio.asp-->
+<div class="host-intro host">       
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="host-profile">
+                        <div class="row">
+                                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="host-pic rippler rippler-img rippler-circle-mask rippler-bs-default">
+                                            <!-- <div class="inset-o-shdw"></div> -->
+                                                <!-- <img src="img/large/host-pamela-nevarez.jpg" alt="host" title="host"> -->
+                                                <img src="img/large/blank-user-large.png" alt="host" title="host">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 host-name">
+                                                    
+                                                    <h3>pamela Nevarez-Fisher <i class="icon-gp-love-heart color-brick"></i></h3>
+                                                    <address>Malibu, CA</address>
+                                                    
+                                                </div>
+                                            
+                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                    <div class="host-details">  
+                                                        <ul>
+                                                            <li class="title">
+                                                            <i class="icon-gp-clock pull-left"></i>TODAY’S HOURS</li>
+                                                            <li class="mbn font-up-case">9:00 am - 1:00 pm</li>
+                                                            <li class="font-up-case">4:00 am - 7:00 pm</li>
+                                                            <li class="title">
+                                                            <i class="icon-gp-plate-cover pull-left"></i>cuisine</li>
+                                                            <li>French, Italian, Mediterranean</li>
+                                                            <li class="title">
+                                                            <i class="icon-gp-cutlery pull-left"></i>DINING OPTIONS</li>
+                                                            <li class="mbn">Dine In, Delivery, Take Out </li>
+                                                        </ul>   
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>                                      
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- host like numbers -->
+        <div class="host-numbers bg-skin">
+            <div class="container">
+                <div class="row">
+
+                <div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+                        <h1>4.5</h1>
+                        <small>Rating</small>
+                        <span></span>
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+                        <h1>0</h1>
+                        <small>Reviews</small>
+                        <span></span>
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+                        <h1>1</h1>
+                        <small>hosted</small>
+                        <span></span>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-sm-6 col-xs-12 text-right">
+                        <button type="button" class="btn btn-lg width-50pr btn-view-menu rippler rippler-default">Order Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+<!-- host gallery and deals -->
+<div class="container">
+        <div class="row">
+        <!-- left -->
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+
+        <!-- photo section - includes/profile-host-photo.asp-->
+        <section class="module-photos">
+<div class="module-title"><i class="icon-gp-camera v-align-mid"></i> photos</div>
+
+
+<!-- gallery -->
+<div class="host-photos desktop clearfix">
+<div class="large-pic-wrap">
+
+        <div class="slider slider-for pos-relative clearfix">
+            <div class="item"><img src="img/large/large-photo-1.jpg" alt="" data-item="1"></div>
+            <div class="item"><img src="img/large/large-photo-2.jpg" alt="" data-item="2"></div>
+            <div class="item"><img src="img/large/large-photo-3.jpg" alt="" data-item="3"></div>
+            <div class="item"><img src="img/large/large-photo-4.jpg" alt="" data-item="4"></div>
+            <div class="item"><img src="img/large/large-photo-5.jpg" alt="" data-item="5"></div>
+            <div class="item"><img src="img/large/large-photo-6.jpg" alt="" data-item="6"></div>
+            <div class="item"><img src="img/large/large-photo-7.jpg" alt="" data-item="7"></div>
+            <div class="item"><img src="img/large/large-photo-8.jpg" alt="" data-item="2"></div>
+            <div class="item"><img src="img/large/large-photo-9.jpg" alt="" data-item="3"></div>
+            <div class="item"><img src="img/large/large-photo-4.jpg" alt="" data-item="4"></div>
+            <div class="item"><img src="img/large/large-photo-5.jpg" alt="" data-item="5"></div>
+            <div class="item"><img src="img/large/large-photo-6.jpg" alt="" data-item="6"></div>
+        </div>
+
+</div>
+<div class="thumbs-pic-wrap clearfix">
+
+        <div class="slider slider-nav">
+            <div class="item"><img src="img/thumb/photo-1.jpg" alt="" title="1"></div>
+            <div class="item"><img src="img/thumb/photo-2.jpg" alt="" title="2"></div>
+            <div class="item"><img src="img/thumb/photo-3.jpg" alt="" title="3"></div>
+            <div class="item"><img src="img/thumb/photo-4.jpg" alt="" title="4"></div>
+            <div class="item"><img src="img/thumb/photo-5.jpg" alt="" title="5"></div>
+            <div class="item"><img src="img/thumb/photo-6.jpg" alt="" title="6"></div>
+            <div class="item"><img src="img/thumb/photo-7.jpg" alt="" title="7"></div>
+            <div class="item"><img src="img/thumb/photo-8.jpg" alt="" title="8"></div>
+            <div class="item"><img src="img/thumb/photo-9.jpg" alt="" title="9"></div>
+            <div class="item"><img src="img/thumb/photo-4.jpg" alt="" title="4"></div>
+            <div class="item"><img src="img/thumb/photo-5.jpg" alt="" title="5"></div>
+            <div class="item"><img src="img/thumb/photo-6.jpg" alt="" title="6"></div>
+        </div>
+
+</div>
+</div>
+<!-- gallery -->
+</section>
+
+        <!-- dishes section - includes/profile-dishes.asp-->
+        <section class="module-dishes">
+<div class="module-title"><i class="icon-gp-cutlery v-align-mid"></i> Dishes</div>
+<div class="module-listing dishes">
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
+                <img src="img/thumb/photo-7.jpg" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <h3>Tuscan Kale Salad</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+                        <div class="price">$13</div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <small>Midnight Moon / Currants / Market Veggies</small>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="review">
+                            <i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="glyphicon glyphicon-triangle-right v-align-mid"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
+                <button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+            </div>
+        </div>
+    </div>
+<!-- item -->
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
+                <img src="img/thumb/photo-8.jpg" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <h3>Tuscan Kale Salad</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+                        <div class="price">$13</div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <small>Midnight Moon / Currants / Market Veggies</small>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="review">
+                            <i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>3 reviews</span> <i class="glyphicon glyphicon-triangle-right v-align-mid"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12 pos-relative">
+                        <button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+                    </div>
+        </div>
+    </div>
+<!-- item -->
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
+                <img src="img/thumb/photo-9.jpg" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <h3>Tuscan Kale Salad</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+                        <div class="price">$13</div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <small>Midnight Moon / Currants / Market Veggies</small>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="review muted">
+                            <i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>0 reviews</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
+                        <button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+                    </div>
+        </div>
+    </div>
+<!-- item -->
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic">
+                <img src="img/thumb/photo-7.jpg" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <h3>Tuscan Kale Salad</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-right">
+                        <div class="price">$13</div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <small>Midnight Moon / Currants / Market Veggies</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                        <div class="review muted">
+                            <i class="icon-gp-star-solid font-14 v-align-mid"></i> <span>0 reviews</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 pull-right text-right col-xs-12">
+                        <button type="button" class="btn btn-add-order rippler rippler-default">Add to Order</button>
+                    </div>
+        </div>
+    </div>
+<!-- item -->
+</div>
+</section>
+
+
+        <!-- review section - includes/profile-host-review.asp-->
+        <section class="module-reviews">
+<div class="module-title clearfix">
+    <div class="pull-left"><i class="icon-gp-chat-bubble-two v-align-mid"></i> reviews</div>
+    
+    <div class="sort-by clearfix hidden-xs">
+        <div class="pull-left"><span class="color-brick font-semi"><i class="icon-gp-sort-amount v-align-mid"></i> Sort By</span>:</div>
+        <div class="pull-left">
+            <div class="dropdown font-light">                           
+                                <button id="category" class="width-100pr clearfix text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="btn-value display-inline-b truncate">Highest Rated</span> 
+                                <span class="glyphicon icon-gp-angle-down font-bold pull-right"></span>
+                                </button>
+
+                                <ul class="dropdown-menu width-100pr" aria-labelled="category">
+                                    <li><a href="javascript:void(0);">Lowest Rated</a></li>
+                                    <li><a href="javascript:void(0);">Highest Rateddd</a></li>
+                                    <li><a href="javascript:void(0);">Rated long text</a></li>
+                                </ul>
+                            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="module-listing review">
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
+            
+                <img src="img/large/host-pamela-nevarez.jpg" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <h3>Pamela Nevarez-Fisher</h3>
+                        <small>From Malibu, CA</small>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right">
+                        <div class="stars">
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="info">Brad was a great guest. He is a very kind person and everything went well. A true foodie. The perfect guest!</div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="review">
+                            <i class="icon-gp-calendar font-14 v-align-mid"></i> <span>September 2015</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- item -->
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
+            
+                <img src="img/large/host-john.png" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <h3>john smith</h3>
+                        <small>From Santa Monica, CA</small>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right">
+                        <div class="stars">
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="info">Brad was a great guest. He is a very kind person and everything went well. A true foodie. The perfect guest!</div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="review">
+                            <i class="icon-gp-calendar font-14 v-align-mid"></i> <span>September 2015</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- item -->
+<!-- item -->
+    <div class="list-item">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 thumb-pic pos-relative">
+            
+                <img src="img/large/host-pamela-nevarez.jpg" alt="" title="">
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <h3>Pamela Nevarez-Fisher</h3>
+                        <small>From Malibu, CA</small>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-right">
+                        <div class="stars">
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-solid"></i>
+                            <i class="icon-gp-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="info">Brad was a great guest. He is a very kind person and everything went well. A true foodie. The perfect guest!</div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="review">
+                            <i class="icon-gp-calendar font-14 v-align-mid"></i> <span>September 2015</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- item -->
+</div>
+</section>
+
+
+        </div>
+
+        <!-- right -->
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+
+        <!-- deals section - includes/profile-deals.asp-->
+        <section class="module-about module-deals">
+<div class="module-title"><i class="icon-gp-tag-2 v-align-mid"></i> Deals</div>
+<div class="about-dtl">
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+    <div class="hot-deal">$75 for $100</div>
+
+    <ul>
+        <li>Not valid for delivery</li>
+        <li>Not valid for take-out</li>
+        <li>Limit 1 per table</li>
+    </ul>
+
+    <a href="#">Read more <i class="glyphicon glyphicon-triangle-right"></i></a>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+    <button class="btn btn-large rippler rippler-default">Purchase deal</button>
+    </div>
+</div>
+
+</section>
+        
+        <!-- hours section - includes/profile-hours.asp-->
+        <section class="module-hours">
+<div class="module-title"><i class="icon-gp-clock v-align-mid"></i> hours</div>
+
+<ul>
+    <li class="clearfix">
+        <div class="day pull-left">sunday</div>
+        <div class="time pull-right text-right">closed</div>
+    </li>
+    <li class="clearfix">
+        <div class="day pull-left">monday</div>
+        <div class="time pull-right text-right">
+            <div>9:00 am - 1:00 pm</div>
+            <div>4:00 am - 7:00 pm</div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <div class="day pull-left">tuesday</div>
+        <div class="time pull-right text-right">
+            <div>10:00 am - 6:00 pm</div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <div class="day pull-left">wednesday</div>
+        <div class="time pull-right text-right">
+            <div>10:00 am - 6:00 pm</div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <div class="day pull-left">thursday</div>
+        <div class="time pull-right text-right">
+            <div>10:00 am - 6:00 pm</div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <div class="day pull-left">friday</div>
+        <div class="time pull-right text-right">
+            <div>10:00 am - 6:00 pm</div>
+        </div>
+    </li>
+    <li class="clearfix">
+        <div class="day pull-left">saturday</div>
+        <div class="time pull-right text-right">
+            <div>9:00 am - 5:00 pm</div>
+        </div>
+    </li>
+</ul>
+
+</section>
+
+        <!-- about section - includes/profile-guest-about.asp-->
+        <section class="module-about guest">
+    <div class="module-title"><i class="icon-gp-information-circle v-align-mid"></i> About John</div>
+
+    <p>John has over 25 years of culinary experience in Austin and New York City. After working for years in restaurants and with catering companies, he spent 12  years as a trusted personal chef in a private household.</p>
+
+    <p>Seeing the need for health specific diets in the Austin community, John started EatStreet Personal Chef  Service to provide healthy, fresh meals for those seeking a healthier, culturally rich lifestyle.</p>
+
+</section>
+
+
+        </div>
+        </div>
+    </div>
+
+
+
+</section>
+<!-- footer - includes/footer.asp-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="nav">
+                    <a href="#">About</a>
+                    <span>|</span>
+                    <a href="#">contact</a>
+                    <span>|</span>
+                    <a href="#">FAQ</a>
+                    <span>|</span>
+                    <a href="#">careers</a>
+                    <span>|</span>
+                    <a href="#">blog</a>
+                    <span>|</span>
+                    <a href="#">Terms &amp; conditions</a>
+                    <span>|</span>
+                    <a href="#">privacy policy</a>
+                    <span>|</span>
+                    <a href="#">sitemap</a>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="icon-gp-social-facebook"></i></a>
+                    <a href="#"><i class="icon-gp-social-twitter"></i></a>
+                    <a href="#"><i class="icon-gp-instagram"></i></a>
+                    <a href="#"><i class="icon-gp-pinterest"></i></a>
+                    <a href="#"><i class="icon-gp-gplus"></i></a>
+                    <a href="#"><i class="icon-gp-social-yelp"></i></a>
+                    <a href="#"><i class="icon-gp-foursquare"></i></a>
+                </div>
+                <div class="copy-right">© 2015 GuestPlate. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</section>
+<!-- js scripts - includes/scripts.asp-->
+<script type="text/javascript" src="js/handlebars.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/rippler.js"></script>
+<script type="text/javascript" src="js/typeahead.bundle.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/guest-plate.js"></script>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        //change dishes title to menu in host profile page
+        $(".module-dishes .module-title").html("<i class='icon-gp-list-bullet v-align-mid'></i> Menu");
+    })
+</script>
+
+</body>
+
+</html>

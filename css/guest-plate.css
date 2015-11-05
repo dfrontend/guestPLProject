@@ -1445,11 +1445,13 @@ footer .social {
 	.search-result-item .host-pic {
 		margin-bottom: 20px;
 	}
-	.search-result-item .host-name i {
+	.search-result-item .host-name i,
+	.host-profile .host-name i {
 		position: absolute;
 	    top: -220px;
 	    right: 20px;
 	    z-index: 9;
+	    font-size: 20px;
 	}
 	.search-result-item .host-numbers .wrap-1,
 	.search-result-item .host-numbers .wrap-2 {
@@ -1635,6 +1637,11 @@ footer .social {
 	}
 	.profile-pg-wrapper {
 		padding-bottom: 50px;
+	}
+
+	.module-deals .btn {
+	    font-size: 15px;
+	    padding: 12px;
 	}
 
 	footer, footer a, footer a:hover {

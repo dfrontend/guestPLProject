@@ -72,6 +72,7 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
+		//change dishes title to menu in host profile page
 		$(".module-dishes .module-title").html("<i class='icon-gp-list-bullet v-align-mid'></i> Menu");
 	})
 </script>

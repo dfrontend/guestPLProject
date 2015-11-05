@@ -1,4 +1,4 @@
-<section class="module-hours hidden-xs">
+<section class="module-hours">
 <div class="module-title"><i class="icon-gp-clock v-align-mid"></i> hours</div>
 
 <ul>

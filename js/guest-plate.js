@@ -99,15 +99,27 @@ $(document).ready(function () {
 
 //more than or equal to 768 - desktop to ipad
     if (wWidth >= 768) {
-        // host profile desktop ht
-        myfunc_name();
-        //alert('desktiop');
 
         // host profile item host photos show only 6 thumbs
         $(".host-photos.desktop .slider-for div.item:gt(0), .host-photos .slider-nav div.item:gt(5)").hide();
 
     }
 
+ if (wWidth >= 1024) {
+        // host profile desktop ht
+        myfunc_name();
+
+        $(window).load(function () {
+        //host photo large image heights for desktop
+            myfunc_name();
+
+        });
+
+        $(window).on("orientationchange", function (event) {
+            //$( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
+            myfunc_name();
+        });
+    }
 
 //mobile and tablets
     if (wWidth <= 767) {
@@ -141,7 +153,7 @@ $(document).ready(function () {
         $('.host-photos .slider-nav').slick({
             rows: 1,
             slidesPerRow: 1,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 2,
             asNavFor: '.slider-for',
             dots: false,
@@ -154,14 +166,5 @@ $(document).ready(function () {
 
 });
 
-$(window).load(function () {
-//host photo large image heights for desktop
-    myfunc_name();
 
-});
-
-$(window).on("orientationchange", function (event) {
-    //$( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
-    myfunc_name();
-});
 
